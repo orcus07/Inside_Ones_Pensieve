@@ -362,15 +362,29 @@ main {
 }
 
 .prose a {
-  color: var(--fg);
+  color: #6b7280;
   text-decoration: underline;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 1px;
-  text-decoration-color: var(--line);
+  text-decoration-color: #d1d5db;
+  font-size: 0.95em;
+  transition: color 0.15s;
 }
 
 .prose a:hover {
+  color: var(--fg);
   text-decoration-color: var(--fg);
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose a {
+    color: #9ca3af;
+    text-decoration-color: #374151;
+  }
+  .prose a:hover {
+    color: var(--fg);
+    text-decoration-color: var(--fg);
+  }
 }
 
 .prose ul,

@@ -60,6 +60,12 @@ export default async function PostPage({ params }: Props) {
         )}
       </header>
 
+      {/*
+        본문은 빌드 타임에 우리가 만든 마크다운에서 나온 HTML이다.
+        외부 입력이 섞이지 않으므로 그대로 주입한다.
+      */}
+      <div className="prose" dangerouslySetInnerHTML={{ __html: post.html }} />
+
       {post.cover && (
         <div className="post-cover">
           <Image
@@ -68,15 +74,9 @@ export default async function PostPage({ params }: Props) {
             width={800}
             height={450}
             style={{ objectFit: "cover", width: "100%", height: "auto", borderRadius: "8px" }}
-            priority
           />
         </div>
       )}
-      {/*
-        본문은 빌드 타임에 우리가 만든 마크다운에서 나온 HTML이다.
-        외부 입력이 섞이지 않으므로 그대로 주입한다.
-      */}
-      <div className="prose" dangerouslySetInnerHTML={{ __html: post.html }} />
 
       {(prev || next) && (
         <nav className="post-nav">
