@@ -30,10 +30,7 @@ export default function RootLayout({
         <header className="site-header">
           <div className="shell">
             <nav>
-              <Link href="/" className="brand">
-                {site.title}
-              </Link>
-              <Link href="/blog/">글</Link>
+              <a href="/feed.xml" className="nav-rss">RSS</a>
               {site.links.map((l) => (
                 <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer">
                   {l.label}
