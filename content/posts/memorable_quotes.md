@@ -1,7 +1,7 @@
 ---
 title: "기억에 남는 말들"
 date: 2025-12-07
-summary: "Inside One’s Pensieve"
+summary: "우산을 예쁘게 접지 못하는 이유는 손이 더러워지는 걸 두려워해서예요."
 tags: [에세이]
 ---
 

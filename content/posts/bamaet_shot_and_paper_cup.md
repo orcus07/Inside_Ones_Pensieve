@@ -1,7 +1,7 @@
 ---
 title: "바매트샷과 종이컵"
 date: 2026-07-02
-summary: "Inside One’s Pensieve"
+summary: "생각 찌꺼기를 비우고, 맑은 마음을 채우자"
 tags: [에세이]
 ---
 

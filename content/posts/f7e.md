@@ -1,7 +1,7 @@
 ---
 title: "당신은 언제 행복한가요?"
 date: 2025-11-30
-summary: "Inside One’s Pensieve"
+summary: "사람은 무엇으로 사는가 - 레프 톨스토이"
 tags: [에세이]
 cover: "/images/f7e_cover.jpg"
 ---

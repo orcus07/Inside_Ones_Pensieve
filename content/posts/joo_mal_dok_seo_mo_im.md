@@ -1,7 +1,7 @@
 ---
 title: "주말 독서 모임"
 date: 2026-05-30
-summary: "Inside One’s Pensieve - Sticky reading club"
+summary: "Sticky reading club"
 tags: [에세이]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "동안이세요"
 date: 2026-02-24
-summary: "Inside One’s Pensieve"
+summary: "스키마와 심성모형"
 tags: [에세이]
 ---
 

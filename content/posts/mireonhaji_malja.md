@@ -1,7 +1,7 @@
 ---
 title: "미련하지 말자"
 date: 2026-05-05
-summary: "Inside One’s Pensieve"
+summary: "미련을 남기지 말자"
 tags: [에세이]
 cover: "/images/mireonhaji_malja_cover.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "내 작업을 전체공개하면 행운이 올거에요"
 date: 2026-01-24
-summary: "Inside One’s Pensieve"
+summary: "Luck = [Doing Things] x [Telling People]"
 tags: [에세이]
 cover: "/images/inside_ones_pensieve_cover.png"
 ---

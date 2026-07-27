@@ -1,7 +1,7 @@
 ---
 title: "멧돼지와 해피아워"
 date: 2026-02-24
-summary: "Inside One’s Pensieve — 호그라이더와 머리 스트레칭"
+summary: "호그라이더와 머리 스트레칭"
 tags: [에세이]
 ---
 
