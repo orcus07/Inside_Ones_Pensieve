@@ -149,19 +149,31 @@ main {
 
 .intro-links a {
   color: var(--muted);
-  font-size: 0.875rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
-  transition: color 0.15s;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
   border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 0.2rem 0.75rem;
+  border-radius: 50%;
+  transition: color 0.15s, border-color 0.15s;
 }
 
 .intro-links a:hover {
   color: var(--fg);
   border-color: var(--fg);
+}
+
+.nav-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  transition: color 0.15s;
+}
+
+.nav-icon:hover {
+  color: var(--fg);
 }
 
 /* ---------- 글 목록 ---------- */

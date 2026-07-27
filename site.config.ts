@@ -7,11 +7,13 @@ export const site = {
   description: "생각을 꺼내 담아두는 곳.",
   /** 배포 주소. 끝에 슬래시를 붙이지 않는다. */
   url: "https://inside-ones-pensieve.vercel.app",
-  author: "orcus07",
+  author: "Sangrok Lee",
   locale: "ko_KR",
   lang: "ko",
   /** 헤더에 노출할 외부 링크. 필요 없으면 빈 배열로 둔다. */
   links: [
-    { label: "GitHub", href: "https://github.com/orcus07" },
+    { label: "GitHub", href: "https://github.com/orcus07", icon: "github" },
+    { label: "Instagram", href: "https://www.instagram.com/korgnas", icon: "instagram" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/korgnas", icon: "linkedin" },
   ],
 } as const;
