@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -39,6 +40,9 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <article className="shell">
+      <div className="post-back">
+        <Link href="/blog/">← 글 목록으로 돌아가기</Link>
+      </div>
       <header className="post-header">
         <h1>{post.title}</h1>
         {post.summary && <p className="post-summary">{post.summary}</p>}
@@ -56,6 +60,18 @@ export default async function PostPage({ params }: Props) {
         )}
       </header>
 
+      {post.cover && (
+        <div className="post-cover">
+          <Image
+            src={post.cover}
+            alt={post.title}
+            width={800}
+            height={450}
+            style={{ objectFit: "cover", width: "100%", height: "auto", borderRadius: "8px" }}
+            priority
+          />
+        </div>
+      )}
       {/*
         본문은 빌드 타임에 우리가 만든 마크다운에서 나온 HTML이다.
         외부 입력이 섞이지 않으므로 그대로 주입한다.

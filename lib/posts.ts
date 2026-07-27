@@ -25,6 +25,8 @@ export type PostMeta = {
   tags: string[];
   draft: boolean;
   readingMinutes: number;
+  /** 글 커버 이미지 경로 (선택) */
+  cover?: string;
 };
 
 export type Post = PostMeta & { html: string };
@@ -139,6 +141,7 @@ function toMeta(slug: string, file: matter.GrayMatterFile<string>): PostMeta {
     tags: Array.isArray(fm.tags) ? fm.tags.map(String) : [],
     draft: fm.draft === true,
     readingMinutes: readingMinutes(file.content),
+    cover: typeof fm.cover === "string" ? fm.cover : undefined,
   };
 }
 
