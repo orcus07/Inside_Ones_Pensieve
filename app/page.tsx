@@ -31,12 +31,19 @@ export default function Home() {
       <section className="intro">
         <h1 className="intro-name">{site.title}</h1>
         <p className="intro-desc">{site.description}</p>
-        <div className="intro-links">
-          {site.links.map((l) => (
-            <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer" aria-label={l.label}>
-              <SocialIcon icon={l.icon} />
-            </a>
-          ))}
+        <div className="intro-bottom">
+          <div className="intro-links">
+            {site.links.map((l) => (
+              <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer" aria-label={l.label}>
+                <SocialIcon icon={l.icon} />
+              </a>
+            ))}
+          </div>
+          <div className="lang-toggle">
+            <span className="lang-active">한국어</span>
+            <span className="lang-divider">/</span>
+            <span className="lang-inactive">English</span>
+          </div>
         </div>
       </section>
 

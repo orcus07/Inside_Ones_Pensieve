@@ -46,19 +46,6 @@ export default function RootLayout({
   return (
     <html lang={site.lang}>
       <body>
-        <header className="site-header">
-          <div className="shell">
-            <nav>
-              <a href="/feed.xml" className="nav-rss">RSS</a>
-              {site.links.map((l) => (
-                <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer" aria-label={l.label} className="nav-icon">
-                  <SocialIcon icon={l.icon} />
-                </a>
-              ))}
-            </nav>
-          </div>
-        </header>
-
         <main>{children}</main>
 
         <footer className="site-footer">

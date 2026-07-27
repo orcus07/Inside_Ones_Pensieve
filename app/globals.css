@@ -70,34 +70,6 @@ a {
   padding: 0 1.5rem;
 }
 
-/* ---------- 헤더 (우측 상단 미니멀) ---------- */
-
-.site-header {
-  padding: 1.5rem 0 0;
-}
-
-.site-header nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 1.25rem;
-}
-
-.site-header nav a {
-  color: var(--muted);
-  font-size: 0.875rem;
-  transition: color 0.15s;
-}
-
-.site-header nav a:hover {
-  color: var(--fg);
-}
-
-.nav-rss {
-  color: var(--faint) !important;
-  font-size: 0.8rem !important;
-}
-
 main {
   padding-bottom: 6rem;
   min-height: 60vh;
@@ -123,7 +95,7 @@ main {
 /* ---------- 홈 ---------- */
 
 .intro {
-  padding: 3.5rem 0 2.5rem;
+  padding: 1.75rem 0 2.5rem;
 }
 
 .intro-name {
@@ -164,16 +136,33 @@ main {
   border-color: var(--fg);
 }
 
-.nav-icon {
-  display: inline-flex;
+.intro-bottom {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  color: var(--muted);
-  transition: color 0.15s;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
-.nav-icon:hover {
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+}
+
+.lang-active {
   color: var(--fg);
+  font-weight: 600;
+}
+
+.lang-divider {
+  color: var(--faint);
+}
+
+.lang-inactive {
+  color: var(--faint);
+  cursor: default;
 }
 
 /* ---------- 글 목록 ---------- */
