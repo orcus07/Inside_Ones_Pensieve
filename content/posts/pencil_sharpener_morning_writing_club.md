@@ -1,0 +1,21 @@
+---
+title: "연필깎이와 모닝 글쓰기 클럽"
+date: 2025-09-28
+summary: "Pencial Sharpener & Writing"
+tags: [에세이]
+cover: "/images/pencil_sharpener_morning_writing_club_cover.jpg"
+---
+
+나는 연필을 깎기 전 이 연필이 깎을 만한지 꼭 시간을 들여 살펴봐야 한다. 예를 들면 아주 뾰족하게 할 지 조금 뭉툭하게 할 지, 긴 연필로 할 지 짧은 연필로 할 지, 원래 쓰던 연필을 깎을 지 새로 연필을 깎을 지를 생각한다. 그래야 연필깎이에 넣을 수 있다. 별 생각 없을 일이 참 유난하다. 그렇게 고민하고 연필깎이(Muji 수동 연필깎이를 쓴다)에 넣으면 아주 찰나의 시간에 내가 생각한 대로 정확하게 연필이 깎인다. 이 과정을 즐기는 이유는 정해진 범주 안에서 고민을 할 수 있고, 고른 생각을 바로 실물로 출력하는 묘한 기분이 느껴져서다. 말하자면 사고 실험의 체험판이랄까. 그렇게 공을 들여 갈아낸 연필을 보면서, 연필 부스러기를 휴지통에 정리하면 꽤나 개운하다.
+
+[](https://substackcdn.com/image/fetch/$s_!Lz7B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49842488-6147-4bb2-92c0-bee8a09926e2_456x456.png)
+
+그래도 언제까지 연필만 깎고 있을 순 없어서, 9월엔 마음 먹고 모닝 글쓰기 클럽에 지원했다. 아침 6시에 출석해서 1시간 씩 각자의 글을 쓰는 형식으로 서로가 서로에게 NPC같은 느슨한 관계다. (그렇지만 이 모임의 백미는 매일 6시 3분에 서로에게 외치는 화이팅과 매주 나누는 회고로 정말 좋다) NPC가 아닌 Human 답게 몇 번 결석했지만 그래도 많이 참석 하여 생각 조각도 많이 모으고, Substack 레터도 몇 개 써내서 뿌듯했다.
+
+[](https://substackcdn.com/image/fetch/$s_!f0Wv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5271d233-2267-42ee-baa7-070d79d6195c_1179x1463.jpeg)
+
+그런데 하나 아쉬웠던 점은 언젠가부터 생각이 꼬리를 물더니 재료 찾기에 시간을 보내고 있었다. 이런 책도 읽어보면 좋겠다 이런 생각이 버뮤려지면 더 좋겠다 등등. 어느 날은 고르기만 하다 한 시간이 모두 지나가 버리기도 했다. 연필을 고르는 것처럼, 생각과 주제를 고르고 있었다. 그래도 이정도면 잘 해냈다고 여기며 마지막 회고를 할 때 이런 생각을 에둘러 말했다. 글을 업으로 삼으시는 멤버님께서 그걸 들으시고 이렇게 말씀하셨다. 본인은 1시간 글쓰기를 하고, 다음 1시간도 “더” 글 쓰기를 하신다고.
+
+그 말이 참 맞고 당연해서 계속 머릿속에 남았다. 연필을 바로 깎을 수 있다는 생각에 연필만 계속 골랐지만, 내가 연필깎이처럼 글을 쓰려면 아직은 시간을 더 들여야 했구나. 나에게 생각을 명료하게 표현하는 건 아직 고된 일이라 그래서 가장 마지막에 하려고 했구나 라고 생각했다. 비단 글이 아니더라도 살아감에 있어 어려운 일을 먼저 하는 게 가장 어렵다. 알아도 항상 비켜가게 된다. 그래도 조금 더 비켜가지 않으려고 해보고, 조금 더 담대해보는 것. 그렇게 살아가고 바라보려한다.
+
+[](https://substackcdn.com/image/fetch/$s_!iGqV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa307cc8b-efc4-4a2a-b3fd-5ff06c37ba3c_4032x3024.jpeg)

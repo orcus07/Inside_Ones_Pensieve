@@ -51,7 +51,7 @@ export default function RootLayout({
         <footer className="site-footer">
           <div className="shell">
             <span>
-              © {new Date().getFullYear()} Sangrok Lee
+              © 2025 Sangrok Lee
             </span>
             <a href="/feed.xml">RSS</a>
           </div>
