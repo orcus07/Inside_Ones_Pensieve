@@ -1,0 +1,26 @@
+---
+title: "기억에 남는 말들"
+date: 2025-12-07
+summary: "Inside One’s Pensieve"
+tags: [에세이]
+---
+
+우산을 예쁘게 접지 못하는 이유는 손이 더러워지는 걸 두려워해서예요.
+
+Source: [까탈로그](https://stibee.com/api/v1.0/emails/share/x7BpyKQA0UXAggoDrlBvZO848Abx5zY)
+
+* * *
+
+어떤 사람과도 언제든 의미있는 대화를 나눌 수 있는 세가지 마법같은 질문들
+
+* "요즘 어떠세요?"
+* "요새 주로 어떤것 하세요?"
+* “제가 혹시 도울수 있는 부분이 뭘까요?"
+
+Source: [실패를 통과하는 일 아홉번째 레터](https://stibee.com/api/v1.0/emails/share/41dyAshfoMu1SkTr4zBBPAIBJB-dFyU)
+
+* * *
+
+어떤 일들은 계속 반복적으로 일어나거든요. 그런데 그걸 요령으로 풀면 그 문제는 끝까지 풀때까지 계속 문제가 돼. 지름길은 우리가 맞닥뜨린 어려운 문제를 정면으로 극복하는 거. 그 문제를 변수에서 완전히 제거하기 위해 노력하는 거. 그러면 나중에 더 큰 일을 할 수 있습니다.
+
+Source: BZCF, 인바디 회장님 인터뷰
