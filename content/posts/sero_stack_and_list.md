@@ -3,7 +3,7 @@ title: "세로를 쌓다. 나열하다."
 date: 2025-12-15
 summary: "Learning By Doing"
 tags: [에세이]
-cover: "/images/세로를_쌓다_나열하다_cover.jpg"
+cover: "/images/sero_stack_and_list_cover.jpg"
 ---
 
 어느 날 자다 말고 iPhone 메모장에 “세로를 쌓다. 나열하다” 라고 휘갈겼습니다. ~~(왜?)~~
@@ -13,7 +13,7 @@ cover: "/images/세로를_쌓다_나열하다_cover.jpg"
 
 반대로 **‘세로를 나열’** 하는 건 쉽고 안전합니다. 도미노를 맞대어 계속 줄세운다고 생각해보면 될 것 같아요. 높게 쌓을 순 없지만, 맞닿아서 놓기만 한다면 얼마든지 길게 줄지어 세울 수 있습니다. ~~(도대체 무슨 말인지 하실 것 같아 GPT 도움을…)~~
 
-![alt](/images/세로를_쌓다_나열하다_img1.jpg)
+![alt](/images/sero_stack_and_list_img1.jpg)
 
 꿈속에서 저는 깊이 사고하고 집중해서 이전보다 더 아름답고 완벽한 결과물을 내는 것, 그것을 **‘세로’** 로 생각했던 것 같아요. 그리고 완벽하진 않아도 꾸준하게 계속 시도하는 걸 **‘가로’** 라고 생각했던 것 같습니다.
 
@@ -31,6 +31,6 @@ cover: "/images/세로를_쌓다_나열하다_cover.jpg"
 
 _**P.S: 글쓰기 시 지팡이로 삼은 ‘실패를 통과하는 일’ 책의 문장들과 BZCF 영상 링크를 첨부합니다.**_
 
-![alt](/images/세로를_쌓다_나열하다_img2.jpg)
+![alt](/images/sero_stack_and_list_img2.jpg)
 
-![alt](/images/세로를_쌓다_나열하다_img3.jpg)
+![alt](/images/sero_stack_and_list_img3.jpg)
