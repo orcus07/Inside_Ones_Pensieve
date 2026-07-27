@@ -12,8 +12,9 @@ export const site = {
   lang: "ko",
   /** 헤더에 노출할 외부 링크. 필요 없으면 빈 배열로 둔다. */
   links: [
-    { label: "GitHub", href: "https://github.com/orcus07", icon: "github" },
+    { label: "Substack",  href: "https://sangrok2lee.substack.com/", icon: "substack" },
+    { label: "GitHub",    href: "https://github.com/orcus07", icon: "github" },
     { label: "Instagram", href: "https://www.instagram.com/korgnas", icon: "instagram" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/korgnas", icon: "linkedin" },
+    { label: "LinkedIn",  href: "https://www.linkedin.com/in/korgnas", icon: "linkedin" },
   ],
 } as const;
