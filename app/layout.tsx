@@ -38,6 +38,9 @@ export const metadata: Metadata = {
   alternates: {
     types: { "application/rss+xml": `${site.url}/feed.xml` },
   },
+  verification: {
+    google: "gmBHDA-NFN3i2MxcdqVt7Vwjxh5KrGnpkA-0CABfEf0",
+  },
 };
 
 export default function RootLayout({
