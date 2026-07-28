@@ -44,6 +44,4 @@ cover: "/images/the_razor_and_blade_myth_cover.jpg"
 
 ![](/images/the_razor_and_blade_myth_img5.jpg)
 
-1
-
 Picker, Randal C., [The Razors-and-Blades Myth(s)](http://www.law.uchicago.edu/faculty/research/randal-c-picker-razors-and-blades-myths) [Archived](https://web.archive.org/web/20170622061427/http://www.law.uchicago.edu/faculty/research/randal-c-picker-razors-and-blades-myths) 2017-06-22 at the [Wayback Machine](https://en.m.wikipedia.org/wiki/Wayback_Machine) (September 13, 2010). U of Chicago Law & Economics, Olin Working Paper No. 532. Available at SSRN:

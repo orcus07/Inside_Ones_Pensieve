@@ -32,22 +32,16 @@ Source: [The Verge](https://www.theverge.com/news/835466/apple-ai-chief-john-gia
 
 Jan 9 • [Sangrok Lee](https://substack.com/@sangroklee)
 
-4
-
 [돌아돌아 메모리 Centric](https://korgnas.substack.com/p/centric)
 
 [메모리가 유니버스의 중심이 될 줄이야](https://korgnas.substack.com/p/centric)
 
 Mar 18 • [Sangrok Lee](https://substack.com/@sangroklee)
 
-1
-
 [엉망진창 LLM과 Openclaw](https://korgnas.substack.com/p/llm-openclaw)
 
 [Misalignment Problem & AI agent World](https://korgnas.substack.com/p/llm-openclaw)
 
 Feb 4 • [Sangrok Lee](https://substack.com/@sangroklee)
-
-1
 
 See all

@@ -14,9 +14,4 @@ cover: "/images/hoesik_daehwa_cover.jpg"
 
 누군가가 다른 사람과 끈끈한 관계이면, 나도 그런 관계를 바로 갖고 싶다. 없었던 욕심이 피어오른다. 모이기만 해도 바로 친해질 수 있다면 좋겠지만, 친해지는 건 결국 서로가 서로에게 쌓은 시간에 비례한다.
 
-나는 너와의 1시간
-이 모두와의 n-1시간보다 좋다.
-
-![image](/images/hoesik_daehwa_img1.jpg)
-
-[Share](https://sangrok2lee.substack.com/p/72c?utm_source=substack&utm_medium=email&utm_content=share&action=share)
+나는 너와의 1시간이 모두와의 n-1시간보다 좋다.

@@ -38,6 +38,4 @@ cover: "/images/neoneun_nae_sesangui_joyeoniya_cover.jpg"
 
 ![image](/images/neoneun_nae_sesangui_joyeoniya_img2.jpg)
 
-1
-
 Gay Hendricks의 책 『The Big Leap』 에서 나온 자기계발/코칭 프레임워크로, 사람이 일이나 삶에서 머무는 영역을 크게 4개로 나눠 설명한다. **Zone of Incompetence, Zone of Competence, Zone of Excellence, Zone of Genius. 그 중 Zone of Excellence는** 내가 아주 잘하고, 남들도 인정해주고, 성과도 나는 영역으로 잘하긴 하는데, 나를 깊이 살아있게 만들지는 않는 일이다. 잘하면서도 에너지가 나고, 나만의 방식으로 큰 가치를 만드는 영역인 Zone of Genius로 영역을 옮겨야한다.

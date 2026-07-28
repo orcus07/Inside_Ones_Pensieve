@@ -28,10 +28,6 @@ Openclaw는 이제 Nvidia GTC 2026 PT에도 등장하며, 존재감을 과시하
 
 ![](/images/korgnas_korgnas_memory_centric_img5.jpg)
 
-[Share](https://korgnas.substack.com/p/centric?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
-
-
 #### Discussion about this post
 
 Comments Restacks
@@ -39,9 +35,3 @@ Comments Restacks
 Top Latest
 
 No posts
-
-### Ready for more?
-
-[Start your Substack](https://substack.com/signup?utm_source=substack&utm_medium=web&utm_content=footer) [Get the app](https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button)
-
-[Substack](https://substack.com) is the home for great culture

@@ -24,12 +24,6 @@ Broadcom의 Gross Margin은 약 50%에 달하는데, 사실 상 Google이 Broadc
 
 뿐만 아니라 전력 제약이 계속되는 한, Computing 인프라는 가격보다 Watt당 Token 효율이 압도적으로 중요한데요. 이렇게되면 가격과 무관하게 최고 성능 제품이 시장을 주도하고 가격 결정권도 가질 가능성이 높습니다. Nvidia는 1년 주기로 새로운 GPU를 출시하고 있습니다. Google/Broadcom 연합이 서로 마찰 없이 경쟁력을 계속 유지하면서, 개발 주기를 더욱 빠르게 해낼 수 있을지도 관전 포인트겠네요. ~~(제 생각엔 Nvidia와 생산 경쟁하는 건 쉽지 않을 것 같습니다.))~~
 
-1
-
 Flywheel은 기계에 들어가는 무거운 회전바퀴를 의미합니다. 처음 돌릴 땐 힘이 많이들지만 한번 돌리면 관성 때문에 힘을 조금만 줘도 계속 돌아가게 되는데요. 비즈니스에선 고객·제품·비용·규모가 서로를 밀어주며 시간이 갈수록 성장 속도가 빨라지는 구조를 의미합니다. 알기 쉬운 예로는 아마존 온라인 리테일이 있습니다.![Flywheel explanation image](/images/korgnas_korgnas_tokenomicsga_baggun_ai_saneobyoghag_img1.jpg)
 
-2
-
 OpenAI 1.35T Tokens, Google 8~900B Tokens, Anthropic 700B
-
-Share

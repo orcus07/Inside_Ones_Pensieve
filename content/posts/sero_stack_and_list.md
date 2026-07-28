@@ -29,6 +29,7 @@ cover: "/images/sero_stack_and_list_cover.jpg"
 
 세로를 쌓으시나요? 나열하시나요?
 
+---
 _**P.S: 글쓰기 시 지팡이로 삼은 ‘실패를 통과하는 일’ 책의 문장들과 BZCF 영상 링크를 첨부합니다.**_
 
 ![alt](/images/sero_stack_and_list_img2.jpg)

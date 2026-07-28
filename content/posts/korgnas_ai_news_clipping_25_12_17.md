@@ -42,5 +42,3 @@ Comments Restacks
 Top Latest
 
 No posts
-
-### Ready for more?
