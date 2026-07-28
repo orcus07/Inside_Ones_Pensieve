@@ -18,4 +18,7 @@ cover: "/images/new_book_smell_cover.jpg"
 
 그래서 누군가가 저에게 왜 책을 사냐고 묻는다면 역시 향기 때문입니다. 신선한 커피 원두를 직접 볶아먹는 것처럼요.
 
-![](\nhttps://substackcdn.com/image/fetch/$s_!npyB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b21225a-7991-48c0-85ac-bccbc970100e_1024x455.png)\n\n덧말: 독서할 때도 글자를 그림처럼 보았다고 하면, 너는 글을 읽지 않았다고 자신을 꾸짖게 될 때가 있습니다. 이렇게 말하면 아 그것은 잘못되었고, 다시 천천히 한 글자 한 글자 읽어내게끔 버르장머리를 고쳐야 할 것 같은데요. 근데 그림처럼 보이면 어떻습니까. 누군가 한 글자 한 글자 읽을 때 나는 그림 보듯 쓱쓱 넘기는 거죠. 책을 읽는 것도 내 방식대로 하면 그만일 것 같습니다.\n\n
+![](
+https://substackcdn.com/image/fetch/$s_!npyB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b21225a-7991-48c0-85ac-bccbc970100e_1024x455.png)
+
+덧말: 독서할 때도 글자를 그림처럼 보았다고 하면, 너는 글을 읽지 않았다고 자신을 꾸짖게 될 때가 있습니다. 이렇게 말하면 아 그것은 잘못되었고, 다시 천천히 한 글자 한 글자 읽어내게끔 버르장머리를 고쳐야 할 것 같은데요. 근데 그림처럼 보이면 어떻습니까. 누군가 한 글자 한 글자 읽을 때 나는 그림 보듯 쓱쓱 넘기는 거죠. 책을 읽는 것도 내 방식대로 하면 그만일 것 같습니다.
