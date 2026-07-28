@@ -10,10 +10,6 @@ cover: "/images/korgnas_ai_news_clipping_25_12_17_cover.jpg"
 
 ### 딥마인드 CEO 데미시스 허사비스: Root Node Problem 풀기
 
-[Sangrok Lee](https://substack.com/@sangroklee)
-
-Dec 17, 2025
-
 Root Node Problem 이란 컴퓨터 과학에서 많이 쓰이는 용어이구요. Tree 구조(아래 그림)의 출발점을 어디로 잡느냐가 전체 결과에 큰 영향을 미치는 문제입니다. 참고로 Tree 구조는 우리 생활 많은 곳에 녹아있습니다. 예를 들면 윈도우 폴더, 웹 페이지 등등이 Tree 구조로 만들어져 있습니다.
 
 ![](/images/korgnas_korgnas_ai_news_clipping_25_12_17_img1.jpg)

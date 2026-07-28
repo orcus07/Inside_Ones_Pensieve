@@ -8,10 +8,6 @@ cover: "/images/korgnas_ai_news_clipping_for_science_maladaptation_251202_cover.
 
 ### Apple: Hey Siri! Bye Siri
 
-[Sangrok Lee](https://substack.com/@sangroklee)
-
-Dec 02, 2025
-
 ![cover image](/images/korgnas_ai_news_clipping_for_science_maladaptation_251202_img1.jpg)
 
 Apple AI 수장인 존 지안 안드레아가 26년 봄에 은퇴합니다. Siri의 AI 버전 출시가 반복 지연되었고, 팀 운영과 투자 우선 순위에서 문제가 있었다고 합니다.
@@ -27,21 +23,3 @@ iPhone3부터 계속 앱등이로 살아온 경험을 보면, 애플 제품의 �
 Source: [The Verge](https://www.theverge.com/news/835466/apple-ai-chief-john-giannandrea-steps-down-siri?utm_source=chatgpt.com) , [Stratecher](https://stratechery.com/2025/apple-ais-platform-pivot-potential/?utm_source=chatgpt.com) y, [Forbes](https://www.forbes.com/sites/parmyolson/2011/10/06/steve-jobs-leaves-a-legacy-in-a-i-with-siri/)
 
 [AI 사회는 기술 봉건 주의가 될까](https://korgnas.substack.com/p/ai-081)
-
-[Thin-Client & Subscription Scenario](https://korgnas.substack.com/p/ai-081)
-
-Jan 9 • [Sangrok Lee](https://substack.com/@sangroklee)
-
-[돌아돌아 메모리 Centric](https://korgnas.substack.com/p/centric)
-
-[메모리가 유니버스의 중심이 될 줄이야](https://korgnas.substack.com/p/centric)
-
-Mar 18 • [Sangrok Lee](https://substack.com/@sangroklee)
-
-[엉망진창 LLM과 Openclaw](https://korgnas.substack.com/p/llm-openclaw)
-
-[Misalignment Problem & AI agent World](https://korgnas.substack.com/p/llm-openclaw)
-
-Feb 4 • [Sangrok Lee](https://substack.com/@sangroklee)
-
-See all

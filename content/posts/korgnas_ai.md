@@ -7,8 +7,6 @@ tags: [AI, 테크]
 
 ### 작업(Task) vs. 목적(Purpose)
 [](https://substack.com/@sangroklee)
-[Sangrok Lee](https://substack.com/@sangroklee)
-Jan 24, 2026
 젠슨황 인터뷰를 원문/번역 Quote 형식으로 구성했다. 결론은 두 개 정도로 요약될 것 같다.
 1. **AI는 일을 할 때 작업(Task)을 줄이고, 목적(Purpose)에 집중하게 할 것이다.**
 > A job has tasks and has purpose

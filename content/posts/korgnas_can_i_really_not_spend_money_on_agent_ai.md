@@ -11,10 +11,6 @@ tags: [AI, 테크]
 
 ### Manus와 Openclaw에 몇십만원 녹인 생생 후기
 
-[Sangrok Lee](https://substack.com/@sangroklee)
-
-Feb 18, 2026
-
 요즘 진짜 뭐가 일어나나 보다라고 “체감” 된다. 이건 나를 빼고 모두가 어디론가 전력질주할 것 같아서 느끼는 FOMO도 아니고, 지난 주부터 업계에서 엄청 도는 “Something Big is Happening” 포스트 때문도 아니다. ~~(참고로 아래 글은 GPT 5.3 Codex 출시 후 AI가 직무를 대체하는 속도가 미친 듯이 빨라지고 있다는 내용으로, 요즘 기술 업계의 변화 속도를 잘 표현해서 읽어보면 좋다.)~~ 변화를 느낀 이유는 지극히 개인적인 이유고 단순한데, 기존 AI 구독료 대비, Agent AI에 지출하는 돈이 10배가 되었기 때문이다. 💸
 
 [Matt Shumer @mattshumer_ https://t.co/ivXRKXJvQg 4:16 PM · Feb 10, 2026 · 84\.1M Views * * * 6\.3K Replies · 26\.7K Reposts · 114K Likes](https://x.com/mattshumer_/status/2021256989876109403?s=20)
