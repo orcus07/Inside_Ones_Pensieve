@@ -27,11 +27,3 @@ From this perspective, Google and Apple seem to be a bit ahead. Google operates 
 Openclaw is now even appearing in Nvidia GTC 2026 PT, asserting its presence. Currently, Openclaw's only drawback is security, but Nvidia quickly partnered with Openclaw's founder to strengthen security, unveiling "Nemoclaw" — an enterprise open-source platform — at this GTC. Furthermore, they emphasized that their new server products, Vera-Rubin Ultra & LPU, are particularly effective for high-performance token throughput. From a monetization perspective, since the LLM OS automatically orchestrates user tasks and charges on a pay-as-you-go basis, any infrastructure solution that can effectively provide more expensive inference tokens via API to a broad customer base will translate into revenue. It's quite clever how they frame selling high-performance inference infrastructure at a premium to customers as directly leading to customer revenue. (Nvidia's own LLM, emotron, being bundled and emphasized as open-source is also clever.) Nvidia remains powerful even in the cloud scenario, which will be valid for the foreseeable future.
 
 ![](/images/korgnas_korgnas_memory_centric_img5.jpg)
-
-#### Discussion about this post
-
-Comments Restacks
-
-Top Latest
-
-No posts

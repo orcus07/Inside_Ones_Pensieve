@@ -6,6 +6,8 @@ tags: [Essay]
 cover: "/images/rubberduckdebuggingvsslopmachine_cover.jpg"
 ---
 
+![](/images/rubberduckdebuggingvsslopmachine_cover.jpg)
+
 Rubber duck debugging is a coding tip introduced in 'The Pragmatic Programmer.' It's simply about placing a rubber duck next to you, as shown in the picture, and explaining how your code works, line by line. This seemingly simple act of explaining and reading your code can lead to sudden insights. Laura Huang's book, 'Edge: Turning Adversity into Advantage,' explains this process in more detail. She says that intuition is a fleeting moment of insight that emerges when accumulated prior knowledge interacts with a present stimulus, resulting in a "Eureka!" moment.
 
 The important thing is that when I explain a problem to myself, the answer often just appears. It won't happen every time, but that's okay. Even if you don't find the exact answer you're looking for right away, those experiences and stimuli gradually build up your prior knowledge. These treasures you discover through self-dialogue and reflection shape and define who you are now and who you'll become.

@@ -27,11 +27,3 @@ cover: "/images/korgnas_memory_centric_cover.jpg"
 Openclaw는 이제 Nvidia GTC 2026 PT에도 등장하며, 존재감을 과시하고 있다. 현재 Openclaw의 유일한 단점은 보안 요소인데, Nvidia는 Openclaw의 창업자와 발빠르게 보안을 강화하여 “Nemoclaw”라는 기업용 오픈소스 플랫폼을 이번 GTC에서 선보였다. 뿐만 아니라 서버 신제품인 Vera-Rubin Ultra & LPU가 고성능 Token Throughput에 특히 효과적임을 강조했다. 이제 과금 측면에선 사용자가 주는 Task들을 LLM OS가 알아서 Orchestration 하고 Pay-as-yougo로 결제하면 되니깐, 더 비싼 추론 Token을 API로 효과적으로 고객들에게 널리 제공할 수 있는 인프라 Solution만 있으면 Revenue로 이어지기 때문이다. 높은 추론 성능을 가진 인프라를 고객에게 비싸게 팔면서, 그것이 곧 고객 Revenue로 이어질거라는 프레임으로 묶는 것도 참 영리하다. ~~(Nvidia 자체 개발한 LLM인 emotron도 Open Source임을 강조하며 Bundle로 섞은 것도 영리하다)~~ 당분간 유효할 클라우드 시나리오에서도 Nvidia는 여전히 강력하다.
 
 ![](/images/korgnas_korgnas_memory_centric_img5.jpg)
-
-#### Discussion about this post
-
-Comments Restacks
-
-Top Latest
-
-No posts

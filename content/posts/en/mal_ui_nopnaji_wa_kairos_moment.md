@@ -5,6 +5,9 @@ symmary: "The right moment for me and U"
 tags: [Essay]
 cover: "/images/mal_ui_nopnaji_wa_kairos_moment_cover.jpg"
 ---
+
+![](/images/mal_ui_nopnaji_wa_kairos_moment_cover.jpg)
+
 I joined the company as an engineer at a time when the height of a horse was important.The job was to find product defects.At the time, the top-down culture had very clear boundaries between roles and responsibilities.Seniors take over the work, and juniors learn and train as apprentices.In the semiconductor business, governed by Moore's Law and supply and demand curves, most problems were predictable.New problems could also be solved using old rules of experience.All answers and solutions were found in the experiences of our seniors.
 
 At this time, there was no need to think anew, and learning from experience was the key to my development.If you nod from above, the person below will also nod, and if you shake your head, it is polite to bow together.Relationships naturally formed from top to bottom, like gravity.Rather, there is something comfortable about it.Knowledge and achievements accumulate over time, and it feels like we are heading to the same destination on a big bus together, giving us a strange sense of stability.
