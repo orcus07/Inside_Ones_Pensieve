@@ -10,3 +10,5 @@ I've lived in a place that's neither city nor countryside, somewhere I can't rea
 These days I try to bring my head closer to my heart. It's a kind of alignment — matching my body in the present with my thoughts. I haven't gone fishing, but when my head, body, and heart connect in a flash, it feels like I've landed a trophy catch. I line myself up like that, and then I give and share with whoever's around — no strings attached.
 Eventually, that reaches someone's heart. Unconditional goodwill and reciprocation flow between us, and a strong trust grows. That's how I become you, and we become us.
 
+![](/images/living_somewhere_not_here_not_there_img1.jpg)
+
