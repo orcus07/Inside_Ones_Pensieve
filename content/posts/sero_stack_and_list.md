@@ -30,7 +30,9 @@ cover: "/images/sero_stack_and_list_cover.jpg"
 세로를 쌓으시나요? 나열하시나요?
 
 ---
-_**P.S: 글쓰기 시 지팡이로 삼은 ‘실패를 통과하는 일’ 책의 문장들과 BZCF 영상 링크를 첨부합니다.**_
+_**P.S: 글쓰기 시 지팡이로 삼은 '실패를 통과하는 일' 책의 문장들과 BZCF 영상 링크를 첨부합니다.**_
+
+[실패를 통과하는 일 (박소령 퍼블리 창업자) — BZCF | 비즈까페](https://www.youtube.com/watch?v=tDmjz6HB-yw)
 
 ![alt](/images/sero_stack_and_list_img2.jpg)
 

@@ -32,6 +32,8 @@ Do you stack vertically? Or do you arrange horizontally?
 ---
 _**P.S: Here are the sentences from the book 'Passing Through Failure' that served as a guide for my writing, along with the BZCF video link.**_
 
+[Passing Through Failure (Park So-ryung, Publy Founder) — BZCF | 비즈까페](https://www.youtube.com/watch?v=tDmjz6HB-yw)
+
 ![alt](/images/sero_stack_and_list_img2.jpg)
 
 ![alt](/images/sero_stack_and_list_img3.jpg)
