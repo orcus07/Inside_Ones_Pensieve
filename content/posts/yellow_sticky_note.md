@@ -6,7 +6,7 @@ tags: [에세이, 루틴]
 cover: /images/yellow-sticky-note.jpg
 ---
 
-[Sam Altman's Method for Clear Thinking — David Perell](https://www.youtube.com/watch?v=dEZSy1NNSiM)
+<iframe width="100%" style="aspect-ratio:16/9;border-radius:8px;margin:1rem 0" src="https://www.youtube.com/embed/dEZSy1NNSiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Sam Altman의 Note-Taking 영상을 보게 됐다. 그는 Host에게 주머니 속에 쏙 들어오는 스프링 달린 노트를 좋아한다고 했다. 왜냐면 그래야 한장씩 뜯어서 요리조리 놓아볼 수도 있고, 자유롭게 생각하기 편하니까. AI시대를 열고 전세계를 바꾸는 최첨단 기술을 선도하는 사람이, 여전히 아날로그식으로 생각을 적고 구성한다니. 참 인상 깊었다.
 
