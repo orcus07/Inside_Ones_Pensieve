@@ -6,6 +6,8 @@ tags: [Essay]
 cover: "/images/fc7_cover.jpg"
 ---
 
+[Asan Chung Ju-yung, Chung Juyung - Collection of Lectures and Dialogues](https://www.youtube.com/watch?v=6t3ic_qElrw)
+
 This man knows no moderation. He learned desperate effort from bedbugs and harbors not even 1% anxiety about things not working out. He calls himself 'Bong-yi Jeong Seon-dal,' starts loan negotiations with a turtle ship drawn on a 500-won banknote, and convinces shipowners to buy ships with a shabby photo of an empty beach. He's the kind of person who breaks through conventional wisdom by asking, "Have you even tried it?" — finding new answers and making things happen. This is Chairman Chung Ju-yung.
 
 In his book, he proudly shares his philosophy, forged through various events like the Soyanggang Dam, shipbuilding, expansion into the Middle East, and the Gyeongbu Expressway. The lessons from this man, full of ambition and drive—'pioneering spirit and conviction,' 'diligence,' 'trust,' 'frugality,' and 'right thinking'—are all invaluable. They make so much sense.
@@ -29,5 +31,3 @@ No one is born special. Everyone grows up ordinarily, goes to school, gets a job
 ![](/images/fc7_img4.jpg)
 
 ![](/images/fc7_img5.jpg)
-
-[Asan Chung Ju-yung, Chung Juyung - Collection of Lectures and Dialogues](https://www.youtube.com/watch?v=6t3ic_qElrw)

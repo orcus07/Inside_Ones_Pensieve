@@ -13,6 +13,22 @@ As repeatedly mentioned in the book, Chairman Choi Jong-hyun believed in the per
 According to Professor Robin Dunbar, a cultural anthropologist at Oxford University in the UK, in 1993, human relationship networks are structured in several layers based on emotional intimacy. The average friend network size expands exponentially by three times with each layer of intimacy.
 For example, if you have 5 closest friends, your network expands to 15 close friends → 50 good friends → 150 acquaintances. However, due to the limited capacity of the human neocortex, we can't maintain meaningful connections with more than 150 people. 2 This maximum of 150 social relationships that one person can maintain is called Dunbar's Number, and it demonstrates the limits of human physical management capacity.
 
+![](/images/yeongweonhan_gieobyi_jogeon_yuhanhan_saram_muhanhan_yeongyeol_img2.jpg)
+
+
 If individuals are so finite, can't corporate groups or organizations made up of such individuals be eternal? If Chairman Chung Ju-yung found the answer in the founder's pioneering spirit and conviction, Chairman Choi Jong-hyun found it in the relationships between people.
 
 He likened an organization to an organism composed of individuals, and he focused on individual-to-individual relationships to make a large organization move as a single entity. Recognizing the differences and fundamental limitations of humans, he defined the relationships among members as "dynamic elements" and established SKMS, his own management methodology. From an individual's perspective, he emphasized 'passion'—the attitude towards work. From an organizational management perspective, he stressed 'Coordination'—an attitude of adjusting between heterogeneous elements and collaborating across different fields. "A single, infinite organization composed of heterogeneous people"—that was Chairman Choi Jong-hyun's conclusion.
+
+![](/images/yeongweonhan_gieobyi_jogeon_yuhanhan_saram_muhanhan_yeongyeol_img3.jpg)
+
+![](/images/yeongweonhan_gieobyi_jogeon_yuhanhan_saram_muhanhan_yeongyeol_img4.jpg)
+
+![](/images/yeongweonhan_gieobyi_jogeon_yuhanhan_saram_muhanhan_yeongyeol_img5.jpg)
+
+
+---
+
+[^1]: [JoongAng — Chey Jong-hyun article](https://www.m-joongang.com/news/articleView.html?idxno=338259)
+
+[^2]: [Hankyoreh — Dunbar's Number](https://www.hani.co.kr/arti/science/science_general/996109.html)
