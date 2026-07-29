@@ -5,7 +5,6 @@ summary: "Manus와 Openclaw에 몇십만원 녹인 생생 후기"
 tags: [AI, 테크]
 ---
 
-# 이과 부적응자의 AI 뉴스 클리핑
 
 # Agent AI에 돈 안쓰고 배길까?
 
@@ -27,4 +26,8 @@ tags: [AI, 테크]
 
 다만, 아래 트윗처럼 이제 알고리즘은 여기저기서 그냥 취해오면 되니깐, 진정한 병목이 에너지와 Compute 에 걸린다. 이건 API 호출 또는 Fine-Tuning Model 시나리오 모두 해당된다. 그리고 이 중 추론 Compute의 핵심은 Interconnetion과 Memory Bandwidth라, 여전히 네트워크 회사랑 메모리 공급사는 꾸준하게 중요할 것 같다. 내 일도 아마 높은 확률로 많아지겠다. 주류가 다른 주류로 대체되고 변화하는 걸 보는 건 아직까지 즐겁다.
 
-[Chamath Palihapitiya @chamath I have a simplified conjecture about AI progress. Your mileage may vary but here it is. f(i) = p × c × a where i=intelligence, p=power, c=compute, a=algorithms, multiplied together. This means neglecting any variable creates a ceiling and any breakthrough compounds across all 6:28 PM · Feb 17, 2026 · 132K Views * * * 185 Replies · 58 Reposts · 695 Likes](https://x.com/chamath/status/2023826795448217714?s=20)
+> **Chamath Palihapitiya** @chamath
+>
+> I have a simplified conjecture about AI progress. Your mileage may vary but here it is. f(i) = p × c × a where i=intelligence, p=power, c=compute, a=algorithms, multiplied together. This means neglecting any variable creates a ceiling and any breakthrough compounds across all
+>
+> *6:28 PM · Feb 17, 2026* · · 132K Views * * * 185 Replies · 58 Reposts · 695 Likes

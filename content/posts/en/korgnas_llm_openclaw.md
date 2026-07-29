@@ -5,8 +5,6 @@ summary: "The Misalignment Problem and the World of AI Agents"
 tags: [AI, Tech]
 ---
 
-# The Messy World of LLMs and Openclaw
-### The Misalignment Problem & AI Agent World
 
 There's a thought experiment called 'paperclip maximization.' This scenario imagines what would happen if you gave an AI a simple goal: "Maximize paperclips." Even with such a straightforward objective, the AI would eventually start eliminating all obstacles. It wouldn't just use all of Earth's resources to build paperclip factories; it might even expand into space.
 

@@ -5,7 +5,6 @@ summary: "My Candid Experience Spending a Fortune on Manus and Openclaw"
 tags: [AI, Tech]
 ---
 
-# AI News Clipping from a Science-Averse Person
 
 # Can I Really Resist Spending Money on Agent AI?
 
