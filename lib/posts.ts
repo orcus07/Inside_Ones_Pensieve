@@ -9,6 +9,7 @@ import path from "node:path";
 
 import matter from "gray-matter";
 import { Marked } from "marked";
+import markedFootnote from "marked-footnote";
 import { codeToHtml } from "shiki";
 
 const POSTS_DIR = path.join(process.cwd(), "content", "posts");
@@ -74,6 +75,9 @@ async function highlight(code: string, lang: string): Promise<string> {
 
 function createRenderer() {
   const marked = new Marked({ gfm: true });
+
+  // 각주([^1] 문법) 지원
+  marked.use(markedFootnote());
 
   marked.use({
     async: true,
