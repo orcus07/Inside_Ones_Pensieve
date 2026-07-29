@@ -6,7 +6,6 @@ tags: [Essay]
 cover: "/images/f7e_cover.jpg"
 ---
 
-### What Men Live By - Leo Tolstoy
 #### The Fool and the Smart Ones
 Semyon the soldier has a wish. To conquer the whole world, and to have more soldiers and power.
 Ivan the Fool says, "Sure, fine. I'll make them for you."
