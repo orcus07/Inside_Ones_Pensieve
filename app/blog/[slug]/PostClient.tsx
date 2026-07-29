@@ -40,18 +40,6 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
       </header>
 
       <div className="prose post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
-
-      {post.cover && (
-        <div className="post-cover">
-          <Image
-            src={post.cover}
-            alt={post.title}
-            width={800}
-            height={450}
-            style={{ objectFit: "cover", width: "100%", height: "auto", borderRadius: "8px" }}
-          />
-        </div>
-      )}
     </article>
   );
 }
