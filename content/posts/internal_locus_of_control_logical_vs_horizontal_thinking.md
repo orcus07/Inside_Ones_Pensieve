@@ -10,7 +10,10 @@ cover: "/images/internal_locus_of_control_logical_vs_horizontal_thinking_cover.j
 
 사주쟁이는 오랫동안 수학 선생님으로 아이들을 가르쳤다고 한다. 그런데 어떤 아이는 가르친 만큼 곧이 곧대로 잘하는데, 어떤 아이는 아무리 가르쳐도 늘지 않아 신기했다고 했다. 누구나 성향과 운명이 있구나 싶어 사주 공부를 시작하게 되었다고 했다. 그리고 사주란 미래를 알려주는 게 아니라 의뢰인에게 확신을 주는 것이라 했다.
 
-사회 심리학 통제 위치(Locus of control)[^1] 관점에서 내재론자(Internal)는 개인이 자신의 삶을 통제할 수 있다고 믿는다. 이들은 자신이 노력하면 결과가 성공적일 것이라 생각한다. 반면, 외재론자(Extermal)은 외생요소가 개인을 통제한다고 믿는다. 내 삶에 운이나 우연의 영향이 크다고 생각하는 것이다.
+![Which is your Locus of Control?](/images/internal_locus_of_control_logical_vs_horizontal_thinking_cover.jpg)
+
+
+사회 심리학 통제 위치(Locus of control)[^1] 관점에서 내재론자(Internal)는 개인이 자신의 삶을 통제할 수 있다고 믿는다. 이들은 자신이 노력하면 결과가 성공적일 것이라 생각한다. 반면, 외재론자(Extermal)은 외생요소가 개인을 통제한다고 믿는다. 내 삶에 운이나 우연의 영향이 크다고 생각하는 것이다. [Source](https://kgrierson.com/uncategorized/understanding-relational-locus-control/)
 
 나는 사주에 금이 많아 타고난 성향과 기질이 강하다고 했다. 그리고 이공계 성향을 갖고 태어났지만 문과 기질도 함께 갖고 있어서, 항상 다른 시도들을 하게된다고 했다.
 
@@ -18,4 +21,4 @@ cover: "/images/internal_locus_of_control_logical_vs_horizontal_thinking_cover.j
 
 ---
 
-[^1]: 사회 심리학 통제 위치(Locus of control) 관점에서 내재론자(Internal)는 개인이 자신의 삶을 통제할 수 있다고 믿는다. 이들은 자신이 노력하면 결과가 성공적일 것이라 생각한다. 반면, 외재론자(External)은 외생요소가 개인을 통제한다고 믿는다. 내 삶에 운이나 우연의 영향이 크다고 생각하는 것이다.
+[^1]: 사회 심리학 통제 위치(Locus of control) 관점에서 내재론자(Internal)는 개인이 자신의 삶을 통제할 수 있다고 믿는다. 이들은 자신이 노력하면 결과가 성공적일 것이라 생각한다. 반면, 외재론자(External)은 외생요소가 개인을 통제한다고 믿는다. 내 삶에 운이나 우연의 영향이 크다고 생각하는 것이다. [Source](https://kgrierson.com/uncategorized/understanding-relational-locus-control/)
