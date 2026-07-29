@@ -10,3 +10,7 @@ Dumbledore used to pull silver-like threads from his temple and put them into a 
 That's exactly what a blog does. Things I thought I knew before writing them down reveal how clumsy they were the moment they're put into sentences. So, the purpose of this space isn't primarily for showing others—it's for getting things out.
 
 And while they're out, I might as well polish them up so they're presentable.
+
+---
+
+*edited by Claude*
