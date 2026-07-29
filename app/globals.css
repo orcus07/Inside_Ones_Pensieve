@@ -162,7 +162,22 @@ main {
 
 .lang-inactive {
   color: var(--faint);
-  cursor: default;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.lang-inactive:hover {
+  color: var(--muted);
+}
+
+.lang-toggle button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
 }
 
 /* ---------- 글 목록 ---------- */

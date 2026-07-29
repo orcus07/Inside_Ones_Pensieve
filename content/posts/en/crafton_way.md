@@ -1,0 +1,16 @@
+---
+title: How Can You Keep Working With Someone You Like — For the Long Haul?
+date: 2025-11-09
+summary: Exploring Korean Companies, Part 1 — The Krafton Way
+tags: [Essay, Reading]
+---
+> I feel like I matter when I'm building something with people I care about — money doesn't matter. Earning money itself isn't fun, and having a lot of it doesn't give me self-worth. I feel joy and happiness when we accomplish things together. —p.22
+This book tells the story of entrepreneurs who chase commercial business goals but also crave the romance of working with people they love. Going a different way looks rewarding and joyful — but it's more painful than anything.
+First, Krafton's executives keep running into situations they've never seen before. They have to make independent judgments. They need conviction and intuition. And they have to view things from multiple angles.
+But in reality, executives can lack the skills or experience of the people doing the work, so they can make wrong calls — especially on the details. When that happens, the staff tend to treat executives like they're omniscient, then gripe about the bad decisions behind their backs. The blame ends up falling only on the executives.
+Any leader — no matter the style — loses trust if they don't deliver results.
+Also, a Crafton Creative Director has to fiercely persuade and communicate with everyone in the organization — and with people outside it — to turn the vision they dream of into a real product. Vision isn't the same as ideas. It often stands in tension with them. The CD has to, almost alone, digest nearly everyone's ideas and pick only the ones that match their vision. If you don't turn the picture in your head into proper documents and conversations, people can't fall into step with you. And worse — a vision may need to change over time, but changing it is way harder and messier than creating a new one.
+At Krafton, the hands-on people have to live as "talent" if they don't want to be replaced. A regular worker can just do their job during the assigned hours. But a talent has to keep learning for life, feel constant pressure to deliver, and work under heavy responsibility. Ordinary people have to outwork others to get results. Even so, if customers don't choose you, all that effort often goes to waste. If customer metrics—revenue or traffic—fall short, a project can't be maintained within the allotted resources, so it gets shut down. At that point, no matter how well you performed, you get no reward—and it hurts.
+By now I can't help but suspect that sticking around to work with someone you like is almost an irony — like dating that's meant to end in a breakup. But the end of the book gives me a clue.
+> Walking a path no one else has walked is a repeating loop of confidence and doubt in yourself. (omitted) If doubt and conviction form a virtuous cycle, that original path can lead to great success.
+The pretty result of achieving something with the people you love is the long, hard process of running together through a tunnel of self-doubt and certainty. What I actually did is mine. The things we wrestle to accomplish are hard for others to follow, and only those things have real value. Until the day we can call it a virtuous cycle — we've got no choice but to hang on together, patiently.

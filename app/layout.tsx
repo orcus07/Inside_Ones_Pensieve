@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { site } from "@/site.config";
+import FooterTranslationNote from "./FooterTranslationNote";
 import "./globals.css";
 
 function SocialIcon({ icon }: { icon: string }) {
@@ -56,6 +57,7 @@ export default function RootLayout({
             <span>
               © 2025 Sangrok Lee
             </span>
+            <FooterTranslationNote />
             <a href="/feed.xml">RSS</a>
           </div>
         </footer>

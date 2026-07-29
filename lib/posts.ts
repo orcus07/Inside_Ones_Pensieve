@@ -12,25 +12,15 @@ import { Marked } from "marked";
 import markedFootnote from "marked-footnote";
 import { codeToHtml } from "shiki";
 
+import type { PostMeta, Post } from "./types";
+
 const POSTS_DIR = path.join(process.cwd(), "content", "posts");
+const POSTS_EN_DIR = path.join(process.cwd(), "content", "posts", "en");
 
 /** 초안(`draft: true`)은 개발 서버에서만 보인다. */
 const SHOW_DRAFTS = process.env.NODE_ENV === "development";
 
-export type PostMeta = {
-  slug: string;
-  title: string;
-  /** YYYY-MM-DD */
-  date: string;
-  summary: string;
-  tags: string[];
-  draft: boolean;
-  readingMinutes: number;
-  /** 글 커버 이미지 경로 (선택) */
-  cover?: string;
-};
-
-export type Post = PostMeta & { html: string };
+export type { PostMeta, Post } from "./types";
 
 const escapeHtml = (s: string) =>
   s.replace(/&/g, "&amp;")
@@ -118,14 +108,15 @@ function createRenderer() {
 
 const renderer = createRenderer();
 
-function readAll(): Array<{ slug: string; data: matter.GrayMatterFile<string> }> {
-  if (!fs.existsSync(POSTS_DIR)) return [];
+function readAll(lang: "ko" | "en" = "ko"): Array<{ slug: string; data: matter.GrayMatterFile<string> }> {
+  const dir = lang === "en" ? POSTS_EN_DIR : POSTS_DIR;
+  if (!fs.existsSync(dir)) return [];
   return fs
-    .readdirSync(POSTS_DIR)
+    .readdirSync(dir)
     .filter((f) => f.endsWith(".md") || f.endsWith(".mdx"))
     .map((file) => ({
       slug: file.replace(/\.mdx?$/, ""),
-      data: matter(fs.readFileSync(path.join(POSTS_DIR, file), "utf8")),
+      data: matter(fs.readFileSync(path.join(dir, file), "utf8")),
     }));
 }
 
@@ -150,8 +141,8 @@ function toMeta(slug: string, file: matter.GrayMatterFile<string>): PostMeta {
 }
 
 /** 최신순 글 목록. 초안은 프로덕션 빌드에서 빠진다. */
-export function getAllPosts(): PostMeta[] {
-  return readAll()
+export function getAllPosts(lang: "ko" | "en" = "ko"): PostMeta[] {
+  return readAll(lang)
     .map(({ slug, data }) => toMeta(slug, data))
     .filter((p) => SHOW_DRAFTS || !p.draft)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -167,8 +158,8 @@ export function getAllTags(): Array<{ tag: string; count: number }> {
     .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag));
 }
 
-export async function getPost(slug: string): Promise<Post | null> {
-  const found = readAll().find((f) => f.slug === slug);
+export async function getPost(slug: string, lang: "ko" | "en" = "ko"): Promise<Post | null> {
+  const found = readAll(lang).find((f) => f.slug === slug);
   if (!found) return null;
 
   const meta = toMeta(found.slug, found.data);
@@ -183,11 +174,11 @@ export async function getPost(slug: string): Promise<Post | null> {
 }
 
 /** 글 하단 이전/다음 링크용. 목록과 같은 최신순 정렬을 기준으로 한다. */
-export function getAdjacent(slug: string): {
+export function getAdjacent(slug: string, lang: "ko" | "en" = "ko"): {
   prev: PostMeta | null;
   next: PostMeta | null;
 } {
-  const posts = getAllPosts();
+  const posts = getAllPosts(lang);
   const i = posts.findIndex((p) => p.slug === slug);
   if (i === -1) return { prev: null, next: null };
   return {
@@ -197,8 +188,4 @@ export function getAdjacent(slug: string): {
   };
 }
 
-/** `2026-07-27` → `2026년 7월 27일` */
-export function formatDate(iso: string): string {
-  const [y, m, d] = iso.split("-");
-  return `${y}년 ${Number(m)}월 ${Number(d)}일`;
-}
+export { formatDate } from "./utils";

@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { formatDate, getAdjacent, getAllPosts, getPost } from "@/lib/posts";
+import type { Post } from "@/lib/types";
+import { getAllPosts, getPost } from "@/lib/posts";
 import { site } from "@/site.config";
+import PostClient from "./PostClient";
 
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  return getAllPosts().map((post) => ({ slug: post.slug }));
+  return getAllPosts("ko").map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const post = await getPost(slug);
+  const post = await getPost(slug, "ko");
   if (!post) return {};
 
   return {
@@ -33,67 +33,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function PostPage({ params }: Props) {
   const { slug } = await params;
-  const post = await getPost(slug);
-  if (!post) notFound();
 
-  const { prev, next } = getAdjacent(slug);
+  // 한국어 + 영어 버전 모두 빌드 타임에 로드
+  const koPost: Post | null = await getPost(slug, "ko");
+  const enPost: Post | null = await getPost(slug, "en");
 
-  return (
-    <article className="shell">
-      <div className="post-back">
-        <Link href="/blog/">← 글 목록으로 돌아가기</Link>
-      </div>
-      <header className="post-header">
-        <h1>{post.title}</h1>
-        {post.summary && <p className="post-summary">{post.summary}</p>}
-        <div className="post-dateline">
-          {formatDate(post.date)} · {post.readingMinutes}분
-        </div>
-        {post.tags.length > 0 && (
-          <div className="tag-row">
-            {post.tags.map((tag) => (
-              <Link key={tag} href={`/tags/${encodeURIComponent(tag)}/`} className="tag">
-                {tag}
-              </Link>
-            ))}
-          </div>
-        )}
-      </header>
+  if (!koPost) notFound();
 
-      {/*
-        본문은 빌드 타임에 우리가 만든 마크다운에서 나온 HTML이다.
-        외부 입력이 섞이지 않으므로 그대로 주입한다.
-      */}
-      <div className="prose" dangerouslySetInnerHTML={{ __html: post.html }} />
-
-      {post.cover && (
-        <div className="post-cover">
-          <Image
-            src={post.cover}
-            alt={post.title}
-            width={800}
-            height={450}
-            style={{ objectFit: "cover", width: "100%", height: "auto", borderRadius: "8px" }}
-          />
-        </div>
-      )}
-
-      {(prev || next) && (
-        <nav className="post-nav">
-          {prev && (
-            <Link href={`/blog/${prev.slug}/`}>
-              <span className="dir">이전 글</span>
-              {prev.title}
-            </Link>
-          )}
-          {next && (
-            <Link href={`/blog/${next.slug}/`} className="next">
-              <span className="dir">다음 글</span>
-              {next.title}
-            </Link>
-          )}
-        </nav>
-      )}
-    </article>
-  );
+  return <PostClient koPost={koPost} enPost={enPost} />;
 }
