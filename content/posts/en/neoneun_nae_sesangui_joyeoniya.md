@@ -6,10 +6,6 @@ tags: [Essay]
 cover: "/images/neoneun_nae_sesangui_joyeoniya_cover.jpg"
 ---
 
-# You're a Side Character in My Story
-
-### And I'm a side character in yours: Sonder
-
 I'm the main character of my world.
 
 But am I the main character in someone else's world too?
@@ -39,3 +35,7 @@ The May sky looks like deep ocean water today.
 ![image](/images/neoneun_nae_sesangui_joyeoniya_img2.jpg)
 
 The Zone of Excellence comes from Gay Hendricks' book *The Big Leap* — a self-development framework that maps out four zones where people tend to operate in work and life: **Zone of Incompetence, Zone of Competence, Zone of Excellence, and Zone of Genius.** The Zone of Excellence is where you're highly skilled, others recognize it, and the results show — but it doesn't make you feel deeply alive. The goal is to move toward the Zone of Genius: the place where your energy flows, and you create real value in a way that's distinctly yours.
+
+---
+
+[^1]: A self-development/coaching framework from Gay Hendricks' *The Big Leap*. It divides the areas where people operate in work and life into four zones — Zone of Incompetence, Zone of Competence, Zone of Excellence, and Zone of Genius. **Zone of Excellence** is where you perform very well, others recognize it, and results show — but it doesn't make you feel deeply alive. The goal is to move toward Zone of Genius, where your effort generates energy and creates unique value.

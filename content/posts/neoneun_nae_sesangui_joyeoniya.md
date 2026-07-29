@@ -4,11 +4,8 @@ date: 2026-05-08
 summary: "나도 너의 세상의 조연이야: Sonder"
 tags: [에세이]
 cover: "/images/neoneun_nae_sesangui_joyeoniya_cover.jpg"
+readingMinutes: 3
 ---
-
-# 너는 내 세상의 조연이야
-
-### 나도 너의 세상의 조연이야: Sonder
 
 나는 내 세상의 주인공이다.
 
@@ -28,14 +25,16 @@ cover: "/images/neoneun_nae_sesangui_joyeoniya_cover.jpg"
 
 > The size of that circle is not very important; knowing its boundaries, however, is vital.
 >
-> 눈에 보이지 않는 내 모습과 세상을 이해하는 범주와 경계를 또렷하게 알아가는 게 좋다. 그러면서도 Zone of Excellence 1 처럼 내가 잘하는 것에만 안주하지 않고, 천천히 이해의 범주를 넓혀가고 싶다. 내 이해의 범주 바깥 세상과 만나도, 거짓말이라고 사실이 아니라고 치부하지 않고 신중하게 바라보고 싶다. 느리고 작게 내 이해의 범위를 조금씩 스스로 넓힐 수 있다면 기쁨일 것 같다. 결국 서로가 서로를 또는 바깥을 잘 모르고 이해가 가지 않아 모든 문제가 벌어지고 생기는 것일 테니까.
+> 눈에 보이지 않는 내 모습과 세상을 이해하는 범주와 경계를 또렷하게 알아가는 게 좋다. 그러면서도 Zone of Excellence[^1]처럼 내가 잘하는 것에만 안주하지 않고, 천천히 이해의 범주를 넓혀가고 싶다. 내 이해의 범주 바깥 세상과 만나도, 거짓말이라고 사실이 아니라고 치부하지 않고 신중하게 바라보고 싶다. 느리고 작게 내 이해의 범위를 조금씩 스스로 넓힐 수 있다면 기쁨일 것 같다. 결국 서로가 서로를 또는 바깥을 잘 모르고 이해가 가지 않아 모든 문제가 벌어지고 생기는 것일 테니까.
 
-![image](/images/neoneun_nae_sesangui_joyeoniya_img1.jpg)
+![](/images/neoneun_nae_sesangui_joyeoniya_img1.jpg)
 
 내 맘대로 시도하고 이것저것 해볼 뿐인데도, 주변과 다르다고 유난히 특별하게 바라봐주는 사람들이 있다. 바깥으로 애쓰지 말자. 보이는 건 생각보다 덜 중요하고, 내가 움직이는 주연인 인생을 살자. 나에게 유용하고 유능한 존재가 되자. 그러다보면 모두의 배경화면이 되는 건 운이 좋으면 따라올 수도 있지 않을까
 
 깊은 바다같은 5월 하늘 이다.
 
-![image](/images/neoneun_nae_sesangui_joyeoniya_img2.jpg)
+![](/images/neoneun_nae_sesangui_joyeoniya_img2.jpg)
 
-Gay Hendricks의 책 『The Big Leap』 에서 나온 자기계발/코칭 프레임워크로, 사람이 일이나 삶에서 머무는 영역을 크게 4개로 나눠 설명한다. **Zone of Incompetence, Zone of Competence, Zone of Excellence, Zone of Genius. 그 중 Zone of Excellence는** 내가 아주 잘하고, 남들도 인정해주고, 성과도 나는 영역으로 잘하긴 하는데, 나를 깊이 살아있게 만들지는 않는 일이다. 잘하면서도 에너지가 나고, 나만의 방식으로 큰 가치를 만드는 영역인 Zone of Genius로 영역을 옮겨야한다.
+---
+
+[^1]: Gay Hendricks의 책 『The Big Leap』에서 나온 자기계발/코칭 프레임워크. 사람이 일이나 삶에서 머무는 영역을 크게 4개로 나눠 설명한다 — Zone of Incompetence, Zone of Competence, Zone of Excellence, Zone of Genius. **Zone of Excellence**는 내가 아주 잘하고, 남들도 인정해주고, 성과도 나는 영역이지만, 나를 깊이 살아있게 만들지는 않는 일이다. 잘하면서도 에너지가 나고, 나만의 방식으로 큰 가치를 만드는 영역인 Zone of Genius로 영역을 옮겨야 한다.
