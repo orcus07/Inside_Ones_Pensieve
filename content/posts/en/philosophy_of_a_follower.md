@@ -14,8 +14,6 @@ But there was no such thing. No matter how much I imitated others, I didn't chan
 
 Imitation and interpretation follow completely different streams of thought. While imitation just chases the end result, interpretation is about drawing out the cause and effect so you can truly understand it yourself. Luckily, after a long season of imitating, I'm finally stepping into my season of interpreting. Just as the creator Kim Spi playfully wanders, and Ryo tinkers with ideas, I am going to try interpreting the world—hoping that one day, I'll find the perfect words with the exact flavor I love.
 
-![](/images/philosophy_of_a_follower_img1.jpg)
-
 ![](/images/philosophy_of_a_follower_img2.jpg)
 
 ![](/images/philosophy_of_a_follower_img3.jpg)

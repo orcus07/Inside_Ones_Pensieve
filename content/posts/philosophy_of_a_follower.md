@@ -12,8 +12,6 @@ cover: "/images/philosophy_of_a_follower_cover.jpg"
 
 모방과 해석은 사유의 흐름이 다르다. 모방이 결과만 좇는다면, 해석은 인과관계를 내가 직접 그려 이해해내는 것이다. 운이 좋게도 오랜 모방의 시간을 지나, 이제 해석의 시간을 보낼 수 있게 됐다. 인스피아의 김스피님이 해찰하듯 료님이 만져대듯, 언젠가 내가 좋아하는 말맛을 가진 알맞은 단어를 찾길 바라며, 나는 세상을 해석해보려고 한다.
 
-![](/images/philosophy_of_a_follower_img1.jpg)
-
 ![](/images/philosophy_of_a_follower_img2.jpg)
 
 ![](/images/philosophy_of_a_follower_img3.jpg)
