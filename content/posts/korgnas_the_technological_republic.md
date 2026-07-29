@@ -3,6 +3,7 @@ title: "Preface: The Technological Republic"
 date: 2025-10-28
 summary: "Hard Power, Soft Belif, and the Future of the West"
 tags: [AI, 테크]
+cover: "/images/korgnas_the_technological_republic_cover.jpg"
 ---
 
 To those who seek to move the hearts of others and know their own.

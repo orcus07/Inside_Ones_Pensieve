@@ -3,6 +3,7 @@ title: "내적 통제위치, 논리적 vs 수평적 사고"
 date: 2025-09-17
 summary: "Which is your Locus of control"
 tags: [에세이]
+cover: "/images/internal_locus_of_control_logical_vs_horizontal_thinking_cover.jpg"
 ---
 
 연초에 사주를 봤다. 신내림을 받거나 굿을 보는 종류는 아니고, 의뢰인의 이름 세글자와 생년월일을 조합해서 앞날을 내다보는 방식이었다.

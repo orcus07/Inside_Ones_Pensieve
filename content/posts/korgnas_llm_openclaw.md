@@ -3,6 +3,7 @@ title: "엉망진창 LLM과 Openclaw"
 date: 2026-02-04
 summary: "Misalignment Problem & AI agent World"
 tags: [AI, 테크]
+cover: "/images/korgnas_llm_openclaw_cover.png"
 ---
 
 # 엉망진창 LLM과 Openclaw

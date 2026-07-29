@@ -9,7 +9,11 @@ tags: [에세이]
 
 그건 매일 매일의 침전물이 쌓여 사고가 굳은 탓이다. 시간은 누구에게나 축복은 아니다. 이해를 포기한 채 그냥 시간이 흘러가는대로 맡기면, 아무 생각이 머릿 속 여기저기 생겨난다. 이걸 주의깊게 정리하고 정렬하지 않으면, 날 것의 생각들이 점점 엉키고 커져서 사고가 굳어진다. ~~(You can’t outsource your understanding)~~
 
-[Andrej Karpathy @karpathy This is the the quote I've been citing a lot recently. kache @yacineMTB you can outsource your thinking but you cannot outsource your understanding 5:43 PM · Apr 30, 2026 · 2\.63M Views * * * 853 Replies · 4\.39K Reposts · 46\.9K Likes](https://x.com/karpathy/status/2049907410303865030?s=20)
+> **Andrej Karpathy** (@karpathy)
+> 
+> *"you can outsource your thinking but you cannot outsource your understanding"*
+> 
+> — [Apr 30, 2026](https://x.com/karpathy/status/2049907410303865030?s=20)
 
 굳은 사고는 그 자체가 긴 말호흡이 된다. 그런 사람들은 어떤 키워드를 만나면 장전된 말호흡을 토해낸다. 마치 연습을 너무나도 많이 한 나머지, 자다가도 재생 버튼이 눌려지는 SM 연습생처럼. 대화 하려고 노력할수록, 말호흡이 더 길어지고 대화 맥락은 멀어지는 악순환에 빠진다.
 

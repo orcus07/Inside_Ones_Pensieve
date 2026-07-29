@@ -3,6 +3,7 @@ title: "이과 부적응자의 AI 뉴스 클리핑"
 date: 2026-01-09
 summary: "Thin-Client & Subscription Scenario"
 tags: [AI, 테크]
+cover: "/images/korgnas_ai_news_clipping_of_science_misfits_img1.png"
 ---
 
 CES가 한창인데요. 저는 Dell이 AI PC를 포기한 것에 놀랐습니다. 제품 책임자 Kevin Terwillinger는 올해 메시지는 AI-First가 아니라고 명확히 하면서, 소비자들은 이제 AI 기반으로 PC를 구매하지 않는다고 공개적으로 강조했거든요. 이렇게 과감하게 AI-First 전략을 버린 업체는 처음인 것 같습니다.
@@ -13,7 +14,7 @@ AI 시대를 맞아 Set 업체들은 너도나도 PC나 모바일 제품에 NPU�
 
 다만, 엣지 디바이스 업체들의 상황은 앞으로도 밝진 않을 것 같습니다. 메모리 가격이 미친듯이 오르고 있거든요. 그리고 AI 서버 1황 Nvidia는 S&P 500 1등 기업 답게 너무나도 잘하고 있습니다. 이번 Vera Rubin도 전작인 Grace-Blackwell보다 x10배 정도 Token Cost Effective 하다고 하더군요.
 
-[](https://substackcdn.com/image/fetch/$s_!HRox!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5cf28634-429e-427e-9273-a1ff7807bb05_1822x771.png)
+![Thin-Client & Subscription Scenario](/images/korgnas_ai_news_clipping_of_science_misfits_img1.png)
 
 이런 상황을 계속 보다보면, 엣지 디바이스인 PC나 스마트폰이 얇아지고(Thin Client), 모든 연산이 구독 서비스로 대체되는 시나리오를 상상하게 됩니다. 소비자는 저장 공간도 CPU/NPU 성능도 필요 없고, 그냥 보기 편한 Display 를 사서 다양한 구독 서비스에 돈을 지출해야하는 거죠. iPhone은 iCloud 구독료로 대체되고, PC/MO도 저용량/저성능 Entry 모델로 대체되며, 결국 AI 서비스와 클라우드 업체에게 종속되게 되는 거죠.
 
