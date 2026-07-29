@@ -16,6 +16,8 @@ Crushhour 콘서트에 갔다. 이번 공연의 주요 모티브는 시소였다
 
 _**I see through U**_
 
+[프라이머리(Primary) - '씨스루 (Feat. 개코, Zion.T)' M/V](https://www.youtube.com/watch?v=e6ZelDkI6JY)
+
 * * *
 
 #### 좋은 끝맺음(Good Goodbye)
@@ -27,8 +29,6 @@ Crushhour 게스트로 화사가 왔다. 모두의 기대에 부응하듯 최근
 모든 헤어지자는 말엔 ‘잘’ 이라는 말이 들어가 있다고 한다. “Good”-bye, “잘”-가처럼. 화사가 말했든 끝에 다다라서 아프더라도 우아하게 ‘잘’ 보내주자.
 
 **안녕은 우릴 아프게 하지만 우아할 거야**
-
-[프라이머리(Primary) - '씨스루 (Feat. 개코, Zion.T)' M/V](https://www.youtube.com/watch?v=e6ZelDkI6JY)
 
 ---
 

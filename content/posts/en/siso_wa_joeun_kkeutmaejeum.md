@@ -16,6 +16,8 @@ Perhaps a dream becoming reality is that moment when the conviction I've built r
 
 _**I see through U**_
 
+[Primary - 'See Through (Feat. Gaeko, Zion.T)' M/V](https://www.youtube.com/watch?v=e6ZelDkI6JY)
+
 * * *
 
 #### Good Goodbye
@@ -27,8 +29,6 @@ Everything has an end. But having an end isn't sad. If you think about it, it's 
 They say every farewell includes the word 'good.' Like "Good"-bye, or "잘"-가 (jal-ga, meaning 'go well'). As Hwasa said, even if it hurts when we reach the end, let's send it off 'gracefully.'
 
 **Goodbyes hurt us, but they'll be graceful.**
-
-[Primary - 'See Through (Feat. Gaeko, Zion.T)' M/V](https://www.youtube.com/watch?v=e6ZelDkI6JY)
 
 ---
 

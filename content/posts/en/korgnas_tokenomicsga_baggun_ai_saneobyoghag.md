@@ -24,8 +24,12 @@ Broadcom's Gross Margin is about 50%, which essentially means Google is providin
 
 Furthermore, as long as power constraints continue, Watt-per-token efficiency will be overwhelmingly more important than price for computing infrastructure. In this scenario, the highest-performing products, regardless of price, are likely to dominate the market and hold pricing power. Nvidia releases new GPUs annually. It will be interesting to see if the Google/Broadcom alliance can maintain competitiveness without friction and accelerate their development cycle. ~~(I don't think competing with Nvidia in production will be easy.)~~
 
-Flywheel refers to a heavy rotating wheel in a machine. It takes a lot of effort to start, but once it's spinning, inertia keeps it going with just a little force. In business, it refers to a structure where customers, products, costs, and scale push each other, accelerating growth over time. Amazon's online retail is an easy example.![Flywheel explanation image](/images/korgnas_korgnas_tokenomicsga_baggun_ai_saneobyoghag_img1.jpg)
-
-OpenAI 1.35T Tokens, Google 8~900B Tokens, Anthropic 700B
-
 [GPUs, TPUs, & The Economics of AI Explained | Gavin Baker Interview](https://www.youtube.com/watch?v=cmUo4841KQw)
+
+---
+
+[^1]: Flywheel refers to a heavy rotating wheel in machinery. It takes a lot of force to start spinning, but once it's moving, inertia keeps it going with minimal effort. In business, it describes a structure where customers, products, costs, and scale reinforce each other, accelerating growth over time. Amazon's online retail is a well-known example.
+
+![Flywheel explanation image](/images/korgnas_korgnas_tokenomicsga_baggun_ai_saneobyoghag_img1.jpg)
+
+[^2]: OpenAI 1.35T Tokens, Google 8~900B Tokens, Anthropic 700B
