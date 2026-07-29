@@ -20,3 +20,5 @@ AI 시대를 맞아 Set 업체들은 너도나도 PC나 모바일 제품에 NPU�
 최근 AWS가 클라우드 가격을 느닷없이 +15% 올린 것도 이런 미래를 떠올리게하는 트리거였던 것 같습니다. 고성능 EC2 인스턴스 한정이긴 하지만, 그래도 출시 후 시간이 지나면 가격이 떨어지는게 클라우드 인스턴스의 불문율인데, 조금 갑작스러웠거든요. ~~(심지어 6개월 전엔 전 인스턴스 최대 -45% 인하를 선언했었는데 말이죠.)~~ 플랫폼 기업이 가격을 올려도 개인이 속수무책인 상황이 된다면, 그것은 합리적인 개인이 자유롭게 행동하는 자본주의 사회라기보단 플랫폼 의존성이 커진 기술 봉건주의 사회와 가까울 것 같네요.
 
 Source: [Hacker](https://news.ycombinator.com/item?id=46511153) [News](https://news.ycombinator.com/item?id=46527706)
+
+[AI Infrastructure 2025: Compute = New Oil | Nebius, SemiAnalysis, Crusoe, Lambda, Sesterce, Mirantis](https://www.youtube.com/watch?v=SHg8Mbs_lRY)

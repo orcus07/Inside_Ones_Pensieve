@@ -25,3 +25,5 @@ cover: "/images/what_how_who_make_it_happen_cover.jpg"
 ![image](/images/what_how_who_make_it_happen_img9.jpg)
 
 ![image](/images/what_how_who_make_it_happen_img10.jpg)
+
+[토스 공동창업자 이태양 대표님 초대석](https://www.youtube.com/watch?v=k2VyqA9_H4I)

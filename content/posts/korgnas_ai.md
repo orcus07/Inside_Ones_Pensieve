@@ -41,3 +41,5 @@ tags: [AI, 테크]
 > “에너지라는 관점에서 보면 이해가 쉬워요. 우리는 공장이 필요하고, 공장은 에너지가 있어야 돌아갑니다. 에너지가 없으면 공장도 없고, 공장이 없으면 AI도 없는 거죠.”
 > 
 >
+
+[NVIDIA's Jensen Huang on Reasoning Models, Robotics, and Refuting the "AI Bubble" Narrative](https://www.youtube.com/watch?v=k-xtmISBCNE)

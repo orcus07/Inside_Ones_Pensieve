@@ -29,3 +29,5 @@ cover: "/images/fc7_cover.jpg"
 ![](/images/fc7_img4.jpg)
 
 ![](/images/fc7_img5.jpg)
+
+[아산 정주영, Chung Juyung - 강연 및 대담 모음](https://www.youtube.com/watch?v=6t3ic_qElrw)

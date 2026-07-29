@@ -27,3 +27,5 @@ Broadcom의 Gross Margin은 약 50%에 달하는데, 사실 상 Google이 Broadc
 Flywheel은 기계에 들어가는 무거운 회전바퀴를 의미합니다. 처음 돌릴 땐 힘이 많이들지만 한번 돌리면 관성 때문에 힘을 조금만 줘도 계속 돌아가게 되는데요. 비즈니스에선 고객·제품·비용·규모가 서로를 밀어주며 시간이 갈수록 성장 속도가 빨라지는 구조를 의미합니다. 알기 쉬운 예로는 아마존 온라인 리테일이 있습니다.![Flywheel explanation image](/images/korgnas_korgnas_tokenomicsga_baggun_ai_saneobyoghag_img1.jpg)
 
 OpenAI 1.35T Tokens, Google 8~900B Tokens, Anthropic 700B
+
+[GPUs, TPUs, & The Economics of AI Explained | Gavin Baker Interview](https://www.youtube.com/watch?v=cmUo4841KQw)

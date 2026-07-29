@@ -18,3 +18,5 @@ cover: "/images/marginal_changes_cover.jpg"
 핵심은 하루 마무리 후 책상에 앉아있거나 소파에 누워 페이스북을 보고 있을 때 전화기를 내려놓는 그 순간의 결정입니다.
 
 ![alt](/images/marginal_changes_img1.jpg)
+
+[How to Achieve Your Most Ambitious Goals | Stephen Duneier | TEDxTucson](https://www.youtube.com/watch?v=TQMbvJNRpLE)
