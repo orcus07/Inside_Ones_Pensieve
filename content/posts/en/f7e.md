@@ -25,6 +25,9 @@ What makes the impossible happen isn't some vague wish—it's diligence and taki
 Instead of chasing fleeting emotions and desires, I have to live my own life.
 Happiness isn't about the relationship between me and the outside world. It's about the relationship between me and myself.
 _**"Sure, fine." I guess I'll just live as a fool.**_
+
+---
+
 #### Candles and Wax
 Matryona feels it's so unfair.
 She gives so much to others, so why doesn't anyone ever give back to them?
@@ -37,4 +40,4 @@ In this unpredictable world, life shines through love for others and noble sacri
 Love is inside us, and we become truly alive through the process of sharing it.
 _**The reason we're still alive is to give and receive love, and life is too short even just for 
 that.**_
-The time I truly changed was when someone else cared for me even more than I cared for myself. Love is the power that lets me change my surroundings, and lets my surroundings change me.
+![](/images/f7e_img1.jpg)
