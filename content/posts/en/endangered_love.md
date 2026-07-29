@@ -6,7 +6,6 @@ tags: [Essay]
 cover: "/images/endangered_love_cover.png"
 ---
 
-### The Secretary Problem and Optimal Stopping Theory
 I stumbled upon something called the Secretary Problem. It's a thought experiment where you interview several candidates one by one to hire a secretary, but you can't go back and choose a candidate you've already passed on.
 
 According to mathematical proof, the optimal strategy is to interview 37% of the total candidates, and then hire the first person who's better than anyone you've seen so far. So, to find the best secretary, I only need to meet 37% of them, right?
@@ -26,3 +25,9 @@ Now, we only share a certain amount of time with each other. We're temporarily c
 Back in the day. They say each person had one love. An endangered love that humanity will lose tomorrow. ~~(Lee Chan-hyuk is truly a genius. Let Chan-hyuk do whatever he wants)~~
 
 ![image](/images/endangered_love_img2.jpg)
+
+---
+
+[^1]: The Secretary Problem is a classic thought experiment in Optimal Stopping Theory. [Reference: Github](https://partrita.github.io/posts/Optimal_stop/)
+
+[^2]: This expression is borrowed from the works of Lee Seul-a (일간 이슬아).

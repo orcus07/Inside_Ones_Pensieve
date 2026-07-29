@@ -11,6 +11,8 @@ In those situations, I often say, "It's Sangrok, as in 'evergreen tree' (sang-ro
 
 It's harder than we think to understand ourselves and each other, so we often borrow things to explain ourselves to the world. But if we get too immersed in that, we end up living our lives comparing ourselves to something that's merely an example for explanation. We live by comparing our choices and judgments to imaginary beings or goals. In those moments, I'm clearly here, yet not truly here. Even if I were to reach that imaginary place, it would just become "here" again.
 
+![](/images/namu_wa_eokkae_img1.jpg)
+
 That's why I like Isaac Newton's expression, 'standing on the shoulders of giants'[^2]. It feels like he's saying that for me to expand, I need to stand firm on what I've discovered. It gives me a sense of agency.
 
 However, the shoulders I like and want to climb onto aren't necessarily those of the most brilliant masters in the world, or perfectly sculpted deltoids, or what everyone calls cool and trendy. Instead, they're the accumulation of things around me. It's not just a fleeting curiosity, like in Zinov's song. When I find small and large, old accumulations nearby, I often want to climb them. I just want to run up and see.

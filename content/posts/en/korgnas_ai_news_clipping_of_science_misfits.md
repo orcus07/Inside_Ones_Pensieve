@@ -19,6 +19,10 @@ As I keep observing this situation, I can't help but imagine a scenario where ed
 
 AWS's sudden 15% price hike for cloud services recently felt like a trigger for this future. While it's limited to high-performance EC2 instances, it was still a bit abrupt, considering that cloud instance prices usually drop over time after launch. ~~(Especially since they announced up to a 45% reduction for all instances just six months ago.)~~ If platform companies can raise prices and individuals are powerless, it feels less like a capitalist society where rational individuals act freely and more like a technological feudalism where platform dependency has grown.
 
-Source: [Hacker](https://news.ycombinator.com/item?id=46511153) [News](https://news.ycombinator.com/item?id=46527706)
+[^1]
 
 [AI Infrastructure 2025: Compute = New Oil | Nebius, SemiAnalysis, Crusoe, Lambda, Sesterce, Mirantis](https://www.youtube.com/watch?v=SHg8Mbs_lRY)
+
+---
+
+[^1]: Source — [Hacker News #1](https://news.ycombinator.com/item?id=46511153), [Hacker News #2](https://news.ycombinator.com/item?id=46527706)

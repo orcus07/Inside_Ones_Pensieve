@@ -12,7 +12,7 @@ Mr. A is very curious and takes on many new projects. However, after happily ide
 
 Ms. B feels that if she shares her results immediately, it might seem like she put less thought into it, and she's also conscious of her colleagues' and others' opinions. So, as she adds, removes, and refines things, aiming to send something more elaborate, it starts to feel like she needs to create something "perfect" without a single flaw. "Alright, I'll really push myself this time." She grinds away for a day, two days, eventually several days. To Ms. B, the result looks absolutely flawless. Proudly, she shares her work with others, but — oh? There's feedback. Her team leader even says some parts need fixing. She can't understand why they're saying something's wrong when it's so perfect. In the end, contrary to the significant time Ms. B invested, the final publication was delayed due to incorporating feedback, and Ms. B's passion was damaged.
 
-According to Jason Roberts' definition, the surface area of luck is proportional to the extent to which you do things with passion and the number of people you effectively communicate it to. The more you do and the more people you tell, the larger the surface area of luck becomes.
+According to Jason Roberts' definition, the surface area of luck is proportional to the extent to which you do things with passion and the number of people you effectively communicate it to.[^1] The more you do and the more people you tell, the larger the surface area of luck becomes.
 
 ![image](/images/inside_ones_pensieve_img1.png)
 
@@ -26,4 +26,8 @@ However, rather than just revealing the final product, we need to share the thou
 
 Luck is in the realm of chance, a domain we can't control. But if you freely share the small, precious things around you, unexpected good things will happen. People around us are less interested in us than we think, so there's usually no big deal if you cautiously put something out there. Even if there's a small criticism, far more people will quietly cheer you on.
 
-Do the work. Tell People.
+**Do the work. Tell People.**
+
+---
+
+[^1]: Jason Roberts, *How to Increase Your Luck Surface Area* — the source of the luck surface area concept.
