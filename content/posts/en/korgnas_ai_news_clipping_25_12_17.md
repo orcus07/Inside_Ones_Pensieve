@@ -6,10 +6,6 @@ tags: [AI, Tech]
 cover: "/images/korgnas_ai_news_clipping_25_12_17_cover.jpg"
 ---
 
-# An Unscientific Person's AI News Clipping 25/12/17
-
-### DeepMind CEO Demis Hassabis: Solving the Root Node Problem
-
 The Root Node Problem is a term widely used in computer science. It's a problem where the starting point of a tree structure (see figure below) significantly impacts the overall outcome. For your information, tree structures are embedded in many aspects of our daily lives. For example, Windows folders and web pages are all built with tree structures.
 
 ![](/images/korgnas_korgnas_ai_news_clipping_25_12_17_img1.jpg)
@@ -30,11 +26,3 @@ I'm also adding the interview video link and a Notion summary of the video.
 * Video Summary Notion [Link](https://www.notion.so/2cc76fbefbd180ffb235ffb819637175?source=copy_link)
 
 Source: [Geekforgeeks](https://www.geeksforgeeks.org/dsa/applications-of-tree-data-structure/?utm_source=chatgpt.com)
-
-#### Discussion about this post
-
-Comments Restacks
-
-Top Latest
-
-No posts
