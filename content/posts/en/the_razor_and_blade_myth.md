@@ -24,7 +24,7 @@ Before Gillette, many people used straight razors, like those found in barbersho
 
 ![](/images/the_razor_and_blade_myth_img1.jpg)
 
-###### _\* The body cost $1.50, spare blades $1, a stropping machine $1.75, and a leather strop 40 cents. This meant the product was designed with the premise that you'd sharpen the blades at home to make them last longer._
+*\* The body cost $1.50, spare blades $1, a stropping machine $1.75, and a leather strop 40 cents. This meant the product was designed with the premise that you'd sharpen the blades at home to make them last longer.*
 
 In October 1903, Gillette launched its thin, replaceable razor blade product. A set consisting of a razor and 12 double-edged blades cost $5. This was about one-third of the average industrial weekly wage at the time. Considering representative consumer goods like men's suits at $12 and women's tailored suits at $12.50, it was a very high price. It was also more than three times more expensive than its competitor, the Star Safety Razor, which cost $1.50.
 

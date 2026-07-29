@@ -14,7 +14,7 @@ cover: "/images/the_razor_and_blade_myth_cover.jpg"
 
 * * *
 
-면도기-면도날 전략은 질레트사가 처음 구상한 사업 전략으로, 면도기를 싸게(혹은 공짜로) 주고 칼날에서 이익을 낸다는 이야기다. 1 어릴 적 질레트에 Lock-in되어 아직도 사용 중이고, 플랫폼 시대에 사는 요즘은 너무 직관적인 전략이라, 속담처럼 당연하게 알았다. 소모품은 비싸게 팔고, 기기는 싸게 팔면 되는구나라고.
+면도기-면도날 전략은 질레트사가 처음 구상한 사업 전략으로, 면도기를 싸게(혹은 공짜로) 주고 칼날에서 이익을 낸다는 이야기다.[^1] 어릴 적 질레트에 Lock-in되어 아직도 사용 중이고, 플랫폼 시대에 사는 요즘은 너무 직관적인 전략이라, 속담처럼 당연하게 알았다. 소모품은 비싸게 팔고, 기기는 싸게 팔면 되는구나라고.
 
 그런데 그게 맞을까? 소모품을 비싸게 파는 건 누구나 할 수 있을텐데, 질레트 면도기를 반드시 살 필요는 없을텐데?
 
@@ -24,7 +24,7 @@ cover: "/images/the_razor_and_blade_myth_cover.jpg"
 
 ![](/images/the_razor_and_blade_myth_img1.jpg)
 
-###### _\* 본체 $1.50, 여분 날 $1, 스트로핑 기계 $1.75, 가죽 스트롭 40센트. 즉, 날을 오래 쓰려면 집에서 갈아 쓰는 전제가 깔린 제품_
+*\* 본체 $1.50, 여분 날 $1, 스트로핑 기계 $1.75, 가죽 스트롭 40센트. 즉, 날을 오래 쓰려면 집에서 갈아 쓰는 전제가 깔린 제품_
 
 1903년 10월 질레트는 얇은 교체형 면도칼 제품을 출시했는데, 면도기 + 양면 칼날 12개로 구성된 세트가 $5였다. 이는 당시 평균 공업 주급의 약 ⅓ 수준으로 대표 소비재인 남성 양복 $12, 여성 테일러드 수트 $12.5를 고려하면 아주 높은 가격이었으며, 경쟁 제품인 Star Safety Razor $1.5 대비해서도 x3배 이상의 고가 포지셔닝 이었다.
 
@@ -44,4 +44,6 @@ cover: "/images/the_razor_and_blade_myth_cover.jpg"
 
 ![](/images/the_razor_and_blade_myth_img5.jpg)
 
-Picker, Randal C., [The Razors-and-Blades Myth(s)](http://www.law.uchicago.edu/faculty/research/randal-c-picker-razors-and-blades-myths) [Archived](https://web.archive.org/web/20170622061427/http://www.law.uchicago.edu/faculty/research/randal-c-picker-razors-and-blades-myths) 2017-06-22 at the [Wayback Machine](https://en.m.wikipedia.org/wiki/Wayback_Machine) (September 13, 2010). U of Chicago Law & Economics, Olin Working Paper No. 532. Available at SSRN:
+---
+
+[^1]: Picker, Randal C., [The Razors-and-Blades Myth(s)](http://www.law.uchicago.edu/faculty/research/randal-c-picker-razors-and-blades-myths) (September 13, 2010). U of Chicago Law & Economics, Olin Working Paper No. 532.
