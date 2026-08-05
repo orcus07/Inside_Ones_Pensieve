@@ -704,3 +704,14 @@ main {
 .footer-icon:hover {
   color: var(--fg);
 }
+
+/* ── Section header row (글 + 언어 토글 같은 줄) ── */
+.section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.section-header .section-label {
+  margin: 0;
+}

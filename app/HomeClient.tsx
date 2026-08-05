@@ -52,7 +52,11 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
       <section className="intro">
         <h1 className="intro-name">{site.title}</h1>
         <p className="intro-desc">{lang === "en" ? "A place to take thoughts out and keep them." : site.description}</p>
-        <div className="intro-bottom">
+      </section>
+
+      <section>
+        <div className="section-header">
+          <p className="section-label">{lang === "en" ? "Posts" : "글"}</p>
           <div className="lang-toggle">
             <button
               className={lang === "ko" ? "lang-active" : "lang-inactive"}
@@ -69,10 +73,6 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
             </button>
           </div>
         </div>
-      </section>
-
-      <section>
-        <p className="section-label">{lang === "en" ? "Posts" : "글"}</p>
         {posts.length === 0 ? (
           <p style={{ color: "var(--muted)" }}>
             {lang === "en" ? "No posts yet." : "아직 쓴 글이 없다."}
