@@ -719,3 +719,17 @@ main {
 .section-header .section-label {
   margin: 0;
 }
+
+/* ── Section header left group (글 + 구독하기) ── */
+.section-header-left {
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+}
+.section-header-left .section-label {
+  margin: 0;
+}
+.section-header-left .subscribe-btn-text {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+}

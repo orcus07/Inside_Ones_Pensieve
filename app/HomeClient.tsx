@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 
 import type { PostMeta } from "@/lib/types";
 import { formatDate } from "@/lib/utils";
@@ -33,11 +33,30 @@ function SocialIcon({ icon }: { icon: string }) {
   return null;
 }
 
+function SubscribeModal({ onClose }: { onClose: () => void }) {
+  return (
+    <div className="subscribe-overlay" onClick={onClose}>
+      <div className="subscribe-modal" onClick={(e) => e.stopPropagation()}>
+        <button className="subscribe-close" onClick={onClose} aria-label="닫기">✕</button>
+        <iframe
+          src="https://sangrok2lee.substack.com/embed"
+          width="100%"
+          height="320"
+          style={{ border: "1px solid #EEE", background: "white", display: "block" }}
+          frameBorder="0"
+          scrolling="no"
+        />
+      </div>
+    </div>
+  );
+}
+
 function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMeta[] }) {
   const searchParams = useSearchParams();
   const router = useRouter();
   const lang = searchParams.get("lang") === "en" ? "en" : "ko";
   const posts = lang === "en" ? enPosts : koPosts;
+  const [showSubscribe, setShowSubscribe] = useState(false);
 
   const setLang = (l: "ko" | "en") => {
     if (l === "ko") {
@@ -56,7 +75,12 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
 
       <section>
         <div className="section-header">
-          <p className="section-label">{lang === "en" ? "Posts" : "글"}</p>
+          <div className="section-header-left">
+            <p className="section-label">{lang === "en" ? "Posts" : "글"}</p>
+            <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
+              {lang === "en" ? "Subscribe" : "구독하기"}
+            </button>
+          </div>
           <div className="lang-toggle">
             <button
               className={lang === "ko" ? "lang-active" : "lang-inactive"}
@@ -111,6 +135,8 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
           </ul>
         )}
       </section>
+
+      {showSubscribe && <SubscribeModal onClose={() => setShowSubscribe(false)} />}
     </div>
   );
 }
