@@ -611,12 +611,6 @@ main {
 }
 
 /* ── Subscribe button & modal ── */
-.post-back {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
 
 .subscribe-btn {
   font-size: 0.8rem;
@@ -688,6 +682,7 @@ main {
   font-family: var(--font-sans);
   color: var(--muted);
   text-decoration: none;
+  margin-left: 1.5rem;
 }
 .subscribe-btn-text:hover {
   color: var(--fg);
