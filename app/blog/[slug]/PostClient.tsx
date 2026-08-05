@@ -41,7 +41,8 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
     <article className="shell">
       <div className="post-back">
         <Link href={`/${langSuffix}`}>{backLabel}</Link>
-        <button className="subscribe-btn" onClick={() => setShowSubscribe(true)}>
+        <span className="post-back-sep">·</span>
+        <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
           {subscribeLabel}
         </button>
       </div>

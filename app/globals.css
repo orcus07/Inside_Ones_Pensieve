@@ -671,3 +671,24 @@ main {
 .subscribe-close:hover {
   color: var(--fg);
 }
+
+/* ── Subscribe text button (inline with back link) ── */
+.post-back-sep {
+  color: var(--faint);
+  margin: 0 0.3rem;
+  user-select: none;
+}
+
+.subscribe-btn-text {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: var(--font-sans);
+  color: var(--muted);
+  text-decoration: none;
+}
+.subscribe-btn-text:hover {
+  color: var(--fg);
+}
