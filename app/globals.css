@@ -183,7 +183,7 @@ main {
 /* ---------- 글 목록 ---------- */
 
 .section-label {
-  font-size: 1.1rem;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: -0.01em;
   color: var(--fg);
@@ -680,7 +680,7 @@ main {
   cursor: pointer;
   font-size: 0.875rem;
   font-family: var(--font-sans);
-  color: var(--muted);
+  color: var(--fg);
   text-decoration: none;
   margin-left: 1.5rem;
 }
