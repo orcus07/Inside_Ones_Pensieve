@@ -714,6 +714,7 @@ main {
   border-top: 1px solid var(--line);
   padding-top: 1.25rem;
   margin-top: 0;
+  margin-bottom: 1.25rem;
 }
 .section-header .section-label {
   margin: 0;
