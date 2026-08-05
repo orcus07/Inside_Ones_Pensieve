@@ -678,7 +678,7 @@ main {
   border: none;
   padding: 0;
   cursor: pointer;
-  font-size: inherit;
+  font-size: 0.875rem;
   font-family: var(--font-sans);
   color: var(--muted);
   text-decoration: none;
