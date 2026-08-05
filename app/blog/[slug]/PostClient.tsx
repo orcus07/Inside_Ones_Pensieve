@@ -1,12 +1,29 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 
 import type { Post } from "@/lib/types";
 import { formatDate } from "@/lib/utils";
+
+function SubscribeModal({ onClose, lang }: { onClose: () => void; lang: string }) {
+  return (
+    <div className="subscribe-overlay" onClick={onClose}>
+      <div className="subscribe-modal" onClick={(e) => e.stopPropagation()}>
+        <button className="subscribe-close" onClick={onClose} aria-label="닫기">✕</button>
+        <iframe
+          src="https://sangrok2lee.substack.com/embed"
+          width="100%"
+          height="320"
+          style={{ border: "1px solid #EEE", background: "white", display: "block" }}
+          frameBorder="0"
+          scrolling="no"
+        />
+      </div>
+    </div>
+  );
+}
 
 function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
   const searchParams = useSearchParams();
@@ -14,13 +31,19 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
   const post = (lang === "en" && enPost) ? enPost : koPost;
   const langSuffix = lang === "en" ? "?lang=en" : "";
   const backLabel = lang === "en" ? "← Back to Posts" : "← 글 목록으로 돌아가기";
+  const subscribeLabel = lang === "en" ? "Subscribe" : "구독하기";
   const prevLabel = lang === "en" ? "Previous" : "이전 글";
   const nextLabel = lang === "en" ? "Next" : "다음 글";
+
+  const [showSubscribe, setShowSubscribe] = useState(false);
 
   return (
     <article className="shell">
       <div className="post-back">
         <Link href={`/${langSuffix}`}>{backLabel}</Link>
+        <button className="subscribe-btn" onClick={() => setShowSubscribe(true)}>
+          {subscribeLabel}
+        </button>
       </div>
       <header className="post-header">
         <h1>{post.title}</h1>
@@ -40,6 +63,10 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
       </header>
 
       <div className="prose post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
+
+      {showSubscribe && (
+        <SubscribeModal onClose={() => setShowSubscribe(false)} lang={lang} />
+      )}
     </article>
   );
 }
