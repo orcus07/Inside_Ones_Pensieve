@@ -53,13 +53,6 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
         <h1 className="intro-name">{site.title}</h1>
         <p className="intro-desc">{lang === "en" ? "A place to take thoughts out and keep them." : site.description}</p>
         <div className="intro-bottom">
-          <div className="intro-links">
-            {site.links.map((l) => (
-              <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer" aria-label={l.label}>
-                <SocialIcon icon={l.icon} />
-              </a>
-            ))}
-          </div>
           <div className="lang-toggle">
             <button
               className={lang === "ko" ? "lang-active" : "lang-inactive"}

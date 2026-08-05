@@ -687,3 +687,20 @@ main {
 .subscribe-btn-text:hover {
   color: var(--fg);
 }
+
+/* ── Footer social icons ── */
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-icon {
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  transition: color 0.15s;
+}
+.footer-icon:hover {
+  color: var(--fg);
+}
