@@ -8,16 +8,33 @@ import type { Post } from "@/lib/types";
 import { formatDate } from "@/lib/utils";
 import { site } from "@/site.config";
 
-function PostSiteHeader({ lang }: { lang: "ko" | "en" }) {
+function PostSiteHeader({ lang, setLang }: { lang: "ko" | "en"; setLang: (l: "ko" | "en") => void }) {
   const homeHref = lang === "en" ? "/?lang=en" : "/";
   const description = lang === "en"
-    ? "A place to take thoughts out and keep them."
+    ? "A place to keep thoughts."
     : site.description;
 
   return (
     <div className="post-site-header">
       <Link href={homeHref} className="post-site-title">{site.title}</Link>
-      <p className="post-site-description">{description}</p>
+      <div className="intro-desc-row">
+        <p className="post-site-description">{description}</p>
+        <div className="lang-toggle">
+          <button
+            className={lang === "ko" ? "lang-active" : "lang-inactive"}
+            onClick={() => setLang("ko")}
+          >
+            한국어
+          </button>
+          <span className="lang-divider">/</span>
+          <button
+            className={lang === "en" ? "lang-active" : "lang-inactive"}
+            onClick={() => setLang("en")}
+          >
+            English
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
@@ -59,7 +76,7 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
 
   return (
     <article className="shell">
-      <PostSiteHeader lang={lang} />
+      <PostSiteHeader lang={lang} setLang={setLang} />
 
       <div className="section-header">
         <div className="section-header-left">
@@ -68,21 +85,6 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
           </Link>
           <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
             {lang === "en" ? "Subscribe" : "구독하기"}
-          </button>
-        </div>
-        <div className="lang-toggle">
-          <button
-            className={lang === "ko" ? "lang-active" : "lang-inactive"}
-            onClick={() => setLang("ko")}
-          >
-            한국어
-          </button>
-          <span className="lang-divider">/</span>
-          <button
-            className={lang === "en" ? "lang-active" : "lang-inactive"}
-            onClick={() => setLang("en")}
-          >
-            English
           </button>
         </div>
       </div>
@@ -117,7 +119,7 @@ export default function PostClient({ koPost, enPost }: { koPost: Post; enPost: P
   return (
     <Suspense fallback={
       <article className="shell">
-        <PostSiteHeader lang="ko" />
+        <PostSiteHeader lang="ko" setLang={() => {}} />
         <div className="section-header" />
         <header className="post-header">
           <h1>{koPost.title}</h1>

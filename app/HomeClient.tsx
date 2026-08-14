@@ -70,17 +70,8 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
     <div className="shell">
       <section className="intro">
         <h1 className="intro-name">{site.title}</h1>
-        <p className="intro-desc">{lang === "en" ? "A place to take thoughts out and keep them." : site.description}</p>
-      </section>
-
-      <section>
-        <div className="section-header">
-          <div className="section-header-left">
-            <p className="section-label">{lang === "en" ? "Posts" : "글 목록"}</p>
-            <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
-              {lang === "en" ? "Subscribe" : "구독하기"}
-            </button>
-          </div>
+        <div className="intro-desc-row">
+          <p className="intro-desc">{lang === "en" ? "A place to keep thoughts." : site.description}</p>
           <div className="lang-toggle">
             <button
               className={lang === "ko" ? "lang-active" : "lang-inactive"}
@@ -94,6 +85,17 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
               onClick={() => setLang("en")}
             >
               English
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="section-header">
+          <div className="section-header-left">
+            <p className="section-label">{lang === "en" ? "Posts" : "글 목록"}</p>
+            <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
+              {lang === "en" ? "Subscribe" : "구독하기"}
             </button>
           </div>
         </div>
