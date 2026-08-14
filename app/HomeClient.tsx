@@ -120,22 +120,26 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
           </p>
         ) : (
           <ul className="post-list">
-            {posts.map((post) => (
-              <li key={post.slug}>
-                <Link href={`/blog/${post.slug}/${lang === "en" ? "?lang=en" : ""}`} className="post-card">
-                  <div className="post-card-body">
-                    <div className="post-title">
-                      {post.draft && <span style={{ color: "var(--faint)" }}>[Draft] </span>}
-                      {post.title}
+            {posts.map((post) => {
+              const isNew = (Date.now() - new Date(post.date).getTime()) < 7 * 24 * 60 * 60 * 1000;
+              return (
+                <li key={post.slug} className={post.pinned ? "pinned" : ""}>
+                  <Link href={`/blog/${post.slug}/${lang === "en" ? "?lang=en" : ""}`} className="post-card">
+                    <div className="post-card-body">
+                      <div className="post-title">
+                        {post.draft && <span style={{ color: "var(--faint)" }}>[Draft] </span>}
+                        {post.title}
+                        {isNew && <span className="badge-new">new</span>}
+                      </div>
+                      {post.summary && <div className="post-preview">{post.summary}</div>}
+                      <div className="post-dateline">
+                        {formatDate(post.date, lang)} · {post.readingMinutes}{lang === "en" ? " min" : "분"}
+                      </div>
                     </div>
-                    {post.summary && <div className="post-preview">{post.summary}</div>}
-                    <div className="post-dateline">
-                      {formatDate(post.date, lang)} · {post.readingMinutes}{lang === "en" ? " min" : "분"}
-                    </div>
-                  </div>
-                </Link>
-              </li>
-            ))}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         )}
 

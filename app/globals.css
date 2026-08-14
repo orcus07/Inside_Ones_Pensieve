@@ -865,3 +865,19 @@ a.section-label:hover {
   font-weight: 700;
   background: var(--code-bg);
 }
+
+/* ── NEW badge ── */
+.badge-new {
+  display: inline-block;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  color: var(--faint);
+  margin-left: 0.5rem;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+}
+
+/* ── Pinned card ── */
+.post-list li.pinned {
+  border-left: 3px solid var(--fg);
+}

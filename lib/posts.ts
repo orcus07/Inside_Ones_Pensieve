@@ -137,6 +137,7 @@ function toMeta(slug: string, file: matter.GrayMatterFile<string>): PostMeta {
     draft: fm.draft === true,
     readingMinutes: readingMinutes(file.content),
     cover: typeof fm.cover === "string" ? fm.cover : undefined,
+    pinned: fm.pinned === true,
   };
 }
 
@@ -145,7 +146,12 @@ export function getAllPosts(lang: "ko" | "en" = "ko"): PostMeta[] {
   return readAll(lang)
     .map(({ slug, data }) => toMeta(slug, data))
     .filter((p) => SHOW_DRAFTS || !p.draft)
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
+    .sort((a, b) => {
+      // pinned 글은 항상 최상단
+      if (a.pinned && !b.pinned) return -1;
+      if (!a.pinned && b.pinned) return 1;
+      return a.date < b.date ? 1 : -1;
+    });
 }
 
 export function getAllTags(): Array<{ tag: string; count: number }> {

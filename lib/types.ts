@@ -9,6 +9,8 @@ export type PostMeta = {
   readingMinutes: number;
   /** 글 커버 이미지 경로 (선택) */
   cover?: string;
+  /** 글 고정 여부 */
+  pinned?: boolean;
 };
 
 export type Post = PostMeta & { html: string };
