@@ -51,7 +51,7 @@ function SubscribeModal({ onClose }: { onClose: () => void }) {
   );
 }
 
-const POSTS_PER_PAGE = 5;
+const POSTS_PER_PAGE = 4;
 
 function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMeta[] }) {
   const searchParams = useSearchParams();

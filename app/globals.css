@@ -200,7 +200,7 @@ main {
 
 .section-label {
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: -0.01em;
   color: var(--fg);
   margin: 0 0 1.25rem;
@@ -288,6 +288,7 @@ main {
   color: var(--faint);
   font-size: 0.8125rem;
   font-variant-numeric: tabular-nums;
+  text-align: right;
 }
 
 /* ---------- 글 본문 ---------- */
@@ -678,6 +679,7 @@ main {
   padding: 0;
   cursor: pointer;
   font-size: 0.875rem;
+  font-weight: 700;
   font-family: var(--font-sans);
   color: var(--fg);
   text-decoration: none;
