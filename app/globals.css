@@ -71,13 +71,13 @@ a {
 }
 
 main {
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
   min-height: 60vh;
 }
 
 .site-footer {
   border-top: 1px solid var(--line);
-  padding: 1.5rem 0 3rem;
+  padding: 0.5rem 0 1rem;
   color: var(--faint);
   font-size: 0.8125rem;
 }
