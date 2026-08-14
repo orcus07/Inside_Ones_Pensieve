@@ -154,51 +154,38 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
 
         {totalPages > 1 && (
           <div className="pagination">
-            <div className="pagination-nav">
-              <button
-                className="page-arrow"
-                onClick={() => goToPage(currentPage - 1)}
-                disabled={currentPage === 1}
-              >
-                ◀ {lang === "en" ? "Prev" : "이전"}
-              </button>
-              <button
-                className="page-arrow"
-                onClick={() => goToPage(currentPage + 1)}
-                disabled={currentPage === totalPages}
-              >
-                {lang === "en" ? "Next" : "다음"} ▶
-              </button>
-            </div>
-            <div className="pagination-numbers">
-              {(() => {
-                const pages: (number | string)[] = [];
-                if (totalPages <= 7) {
-                  for (let i = 1; i <= totalPages; i++) pages.push(i);
-                } else {
-                  pages.push(1);
-                  if (currentPage > 3) pages.push("...");
-                  const start = Math.max(2, currentPage - 1);
-                  const end = Math.min(totalPages - 1, currentPage + 1);
-                  for (let i = start; i <= end; i++) pages.push(i);
-                  if (currentPage < totalPages - 2) pages.push("...");
-                  pages.push(totalPages);
-                }
-                return pages.map((p, idx) =>
-                  typeof p === "string" ? (
-                    <span key={`dots-${idx}`} className="page-dots">…</span>
-                  ) : (
-                    <button
-                      key={p}
-                      className={p === currentPage ? "page-active" : "page-btn"}
-                      onClick={() => goToPage(p)}
-                    >
-                      {p}
-                    </button>
-                  )
-                );
-              })()}
-            </div>
+            <button className="page-arrow" onClick={() => goToPage(1)} disabled={currentPage === 1}>
+              « {lang === "en" ? "Prev" : "이전"}
+            </button>
+            <button className="page-arrow" onClick={() => goToPage(currentPage - 1)} disabled={currentPage === 1}>
+              ‹ {lang === "en" ? "Prev" : "이전"}
+            </button>
+            {(() => {
+              const pages: number[] = [];
+              const half = 2;
+              let start = Math.max(1, currentPage - half);
+              let end = Math.min(totalPages, currentPage + half);
+              if (end - start < half * 2) {
+                start = Math.max(1, end - half * 2);
+                end = Math.min(totalPages, start + half * 2);
+              }
+              for (let i = start; i <= end; i++) pages.push(i);
+              return pages.map((p) => (
+                <button
+                  key={p}
+                  className={p === currentPage ? "page-active" : "page-btn"}
+                  onClick={() => goToPage(p)}
+                >
+                  {p}
+                </button>
+              ));
+            })()}
+            <button className="page-arrow" onClick={() => goToPage(currentPage + 1)} disabled={currentPage === totalPages}>
+              {lang === "en" ? "Next" : "다음"} ›
+            </button>
+            <button className="page-arrow" onClick={() => goToPage(totalPages)} disabled={currentPage === totalPages}>
+              {lang === "en" ? "Next" : "다음"} »
+            </button>
           </div>
         )}
       </section>
