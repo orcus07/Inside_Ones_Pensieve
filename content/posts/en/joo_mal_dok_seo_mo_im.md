@@ -37,4 +37,19 @@ But honestly, even I don't talk about them enough at work. There's no one to tal
 
 So, I bravely wrote this letter again to the TLs whose farewells I regretted. We take our colleagues for granted, just like we go to work every day, but in fact, our allotted time is limited. That's why I wanted to have these conversations more comfortably and deeply outside of work.
 
-I'm aging into a
+I'm aging into a senior junior now, but looking back to when I was truly junior, conversations at work were never really fun. Back then I grumbled that it was because semiconductors were boring, but honestly, I think it was because I never truly connected with my seniors and colleagues. That's why meeting you as a TL and working together meant so much. I'm genuinely grateful.
+
+If you join, we'll each spend a month reading the books below, write reflections, and share our thoughts:
+
+- *The Sense of Work*
+- *Amazon Unbound*
+- *The Everything Store*
+
+The last one covers the era when Amazon became Amazon.com—it's great, but already quite long, so consider it a bonus recommendation.
+
+It's nice to reach out after so long. Even if schedules or tastes don't align and we can't meet, I'll be satisfied just knowing I could personally deliver a loose hello, some life updates, and a book recommendation.
+
+Let's meet like it was just yesterday, anytime, anywhere.
+
+Sincerely,
+Sangrok Lee.
