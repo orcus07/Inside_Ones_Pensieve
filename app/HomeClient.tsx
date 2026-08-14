@@ -155,10 +155,10 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
         {totalPages > 1 && (
           <div className="pagination">
             <button className="page-arrow" onClick={() => goToPage(1)} disabled={currentPage === 1}>
-              « {lang === "en" ? "Prev" : "이전"}
+              «
             </button>
             <button className="page-arrow" onClick={() => goToPage(currentPage - 1)} disabled={currentPage === 1}>
-              ‹ {lang === "en" ? "Prev" : "이전"}
+              ‹
             </button>
             {(() => {
               const pages: number[] = [];
@@ -181,10 +181,10 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
               ));
             })()}
             <button className="page-arrow" onClick={() => goToPage(currentPage + 1)} disabled={currentPage === totalPages}>
-              {lang === "en" ? "Next" : "다음"} ›
+              ›
             </button>
             <button className="page-arrow" onClick={() => goToPage(totalPages)} disabled={currentPage === totalPages}>
-              {lang === "en" ? "Next" : "다음"} »
+              »
             </button>
           </div>
         )}
