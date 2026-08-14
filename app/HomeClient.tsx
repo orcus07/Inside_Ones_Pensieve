@@ -124,28 +124,14 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
               <li key={post.slug}>
                 <Link href={`/blog/${post.slug}/${lang === "en" ? "?lang=en" : ""}`} className="post-card">
                   <div className="post-card-body">
-                    <div>
-                      <div className="post-title">
-                        {post.draft && <span style={{ color: "var(--faint)" }}>[Draft] </span>}
-                        {post.title}
-                      </div>
-                      {post.summary && <div className="post-preview">{post.summary}</div>}
+                    <div className="post-title">
+                      {post.draft && <span style={{ color: "var(--faint)" }}>[Draft] </span>}
+                      {post.title}
                     </div>
                     <div className="post-dateline">
                       {formatDate(post.date, lang)} · {post.readingMinutes}{lang === "en" ? " min" : "분"}
                     </div>
                   </div>
-                  {post.cover && (
-                    <div className="post-card-thumb">
-                      <Image
-                        src={post.cover}
-                        alt={post.title}
-                        width={130}
-                        height={90}
-                        style={{ objectFit: "cover", width: "100%", height: "100%" }}
-                      />
-                    </div>
-                  )}
                 </Link>
               </li>
             ))}
