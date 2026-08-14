@@ -76,7 +76,7 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
       <section>
         <div className="section-header">
           <div className="section-header-left">
-            <p className="section-label">{lang === "en" ? "Posts" : "글"}</p>
+            <p className="section-label">{lang === "en" ? "Posts" : "글 목록"}</p>
             <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
               {lang === "en" ? "Subscribe" : "구독하기"}
             </button>

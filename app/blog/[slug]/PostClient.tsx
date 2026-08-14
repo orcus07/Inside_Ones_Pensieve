@@ -64,7 +64,7 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
       <div className="section-header">
         <div className="section-header-left">
           <Link href={lang === "en" ? "/?lang=en" : "/"} className="section-label">
-            {lang === "en" ? "Posts" : "글"}
+            {lang === "en" ? "Posts" : "글 목록"}
           </Link>
           <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
             {lang === "en" ? "Subscribe" : "구독하기"}
