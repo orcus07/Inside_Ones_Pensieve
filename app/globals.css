@@ -184,7 +184,7 @@ main {
 
 .section-label {
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: -0.01em;
   color: var(--fg);
   margin: 0 0 1.25rem;
@@ -277,21 +277,6 @@ main {
 }
 
 /* ---------- 글 본문 ---------- */
-
-.post-back {
-  padding: 1.25rem 0 0;
-  margin-bottom: 1.25rem;
-}
-
-.post-back a {
-  color: var(--muted);
-  font-size: 0.875rem;
-  transition: color 0.15s;
-}
-
-.post-back a:hover {
-  color: var(--fg);
-}
 
 .post-cover {
   margin: 0 0 2.5rem;
@@ -728,6 +713,15 @@ main {
 }
 .section-header-left .section-label {
   margin: 0;
+}
+
+a.section-label {
+  text-decoration: none;
+  color: var(--fg);
+  transition: color 0.15s;
+}
+a.section-label:hover {
+  color: var(--muted);
 }
 .section-header-left .subscribe-btn-text {
   margin-left: 1rem;

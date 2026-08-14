@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useState } from "react";
 
 import type { Post } from "@/lib/types";
@@ -22,7 +22,7 @@ function PostSiteHeader({ lang }: { lang: "ko" | "en" }) {
   );
 }
 
-function SubscribeModal({ onClose, lang }: { onClose: () => void; lang: string }) {
+function SubscribeModal({ onClose }: { onClose: () => void }) {
   return (
     <div className="subscribe-overlay" onClick={onClose}>
       <div className="subscribe-modal" onClick={(e) => e.stopPropagation()}>
@@ -42,25 +42,51 @@ function SubscribeModal({ onClose, lang }: { onClose: () => void; lang: string }
 
 function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const lang = searchParams.get("lang") === "en" ? "en" : "ko";
   const post = (lang === "en" && enPost) ? enPost : koPost;
-  const langSuffix = lang === "en" ? "?lang=en" : "";
-  const backLabel = lang === "en" ? "← Back to Posts" : "← 글 목록으로 돌아가기";
-  const subscribeLabel = lang === "en" ? "Subscribe" : "구독하기";
-  const prevLabel = lang === "en" ? "Previous" : "이전 글";
-  const nextLabel = lang === "en" ? "Next" : "다음 글";
+  const slug = koPost.slug;
 
   const [showSubscribe, setShowSubscribe] = useState(false);
+
+  const setLang = (l: "ko" | "en") => {
+    if (l === "ko") {
+      router.push(`/blog/${slug}/`);
+    } else {
+      router.push(`/blog/${slug}/?lang=en`);
+    }
+  };
 
   return (
     <article className="shell">
       <PostSiteHeader lang={lang} />
-      <div className="post-back">
-        <Link href={`/${langSuffix}`}>{backLabel}</Link>
-        <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
-          {subscribeLabel}
-        </button>
+
+      <div className="section-header">
+        <div className="section-header-left">
+          <Link href={lang === "en" ? "/?lang=en" : "/"} className="section-label">
+            {lang === "en" ? "Posts" : "글"}
+          </Link>
+          <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
+            {lang === "en" ? "Subscribe" : "구독하기"}
+          </button>
+        </div>
+        <div className="lang-toggle">
+          <button
+            className={lang === "ko" ? "lang-active" : "lang-inactive"}
+            onClick={() => setLang("ko")}
+          >
+            한국어
+          </button>
+          <span className="lang-divider">/</span>
+          <button
+            className={lang === "en" ? "lang-active" : "lang-inactive"}
+            onClick={() => setLang("en")}
+          >
+            English
+          </button>
+        </div>
       </div>
+
       <header className="post-header">
         <h1>{post.title}</h1>
         {post.summary && <p className="post-summary">{post.summary}</p>}
@@ -81,7 +107,7 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
       <div className="prose post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
 
       {showSubscribe && (
-        <SubscribeModal onClose={() => setShowSubscribe(false)} lang={lang} />
+        <SubscribeModal onClose={() => setShowSubscribe(false)} />
       )}
     </article>
   );
@@ -92,7 +118,7 @@ export default function PostClient({ koPost, enPost }: { koPost: Post; enPost: P
     <Suspense fallback={
       <article className="shell">
         <PostSiteHeader lang="ko" />
-        <div className="post-back" />
+        <div className="section-header" />
         <header className="post-header">
           <h1>{koPost.title}</h1>
         </header>
