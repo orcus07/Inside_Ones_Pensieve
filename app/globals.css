@@ -767,6 +767,11 @@ main {
 }
 
 @media (max-width: 480px) {
+  .intro {
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+  }
+
   .post-site-header {
     padding-top: 1.25rem;
     padding-bottom: 1rem;
