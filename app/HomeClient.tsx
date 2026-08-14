@@ -51,7 +51,7 @@ function SubscribeModal({ onClose }: { onClose: () => void }) {
   );
 }
 
-const POSTS_PER_PAGE = 3;
+const POSTS_PER_PAGE = 5;
 
 function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMeta[] }) {
   const searchParams = useSearchParams();
@@ -128,6 +128,7 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
                       {post.draft && <span style={{ color: "var(--faint)" }}>[Draft] </span>}
                       {post.title}
                     </div>
+                    {post.summary && <div className="post-preview">{post.summary}</div>}
                     <div className="post-dateline">
                       {formatDate(post.date, lang)} · {post.readingMinutes}{lang === "en" ? " min" : "분"}
                     </div>
