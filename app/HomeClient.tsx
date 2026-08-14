@@ -51,12 +51,27 @@ function SubscribeModal({ onClose }: { onClose: () => void }) {
   );
 }
 
+const POSTS_PER_PAGE = 3;
+
 function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMeta[] }) {
   const searchParams = useSearchParams();
   const router = useRouter();
   const lang = searchParams.get("lang") === "en" ? "en" : "ko";
-  const posts = lang === "en" ? enPosts : koPosts;
+  const allPosts = lang === "en" ? enPosts : koPosts;
   const [showSubscribe, setShowSubscribe] = useState(false);
+
+  const pageParam = searchParams.get("page");
+  const currentPage = Math.max(1, parseInt(pageParam || "1", 10) || 1);
+  const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+  const posts = allPosts.slice((currentPage - 1) * POSTS_PER_PAGE, currentPage * POSTS_PER_PAGE);
+
+  const goToPage = (p: number) => {
+    const params = new URLSearchParams();
+    if (lang === "en") params.set("lang", "en");
+    if (p > 1) params.set("page", String(p));
+    const qs = params.toString();
+    router.push(qs ? `/?${qs}` : "/");
+  };
 
   const setLang = (l: "ko" | "en") => {
     if (l === "ko") {
@@ -135,6 +150,20 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
               </li>
             ))}
           </ul>
+        )}
+
+        {totalPages > 1 && (
+          <div className="pagination">
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+              <button
+                key={p}
+                className={p === currentPage ? "page-active" : "page-btn"}
+                onClick={() => goToPage(p)}
+              >
+                {p}
+              </button>
+            ))}
+          </div>
         )}
       </section>
 

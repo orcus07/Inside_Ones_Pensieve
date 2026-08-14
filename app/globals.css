@@ -809,3 +809,39 @@ a.section-label:hover {
     font-size: 1.25rem;
   }
 }
+
+/* ── Pagination ── */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem 0 0.5rem;
+}
+
+.page-btn,
+.page-active {
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+}
+
+.page-btn {
+  color: var(--muted);
+}
+
+.page-btn:hover {
+  color: var(--fg);
+  background: var(--code-bg);
+}
+
+.page-active {
+  color: var(--fg);
+  font-weight: 600;
+  background: var(--code-bg);
+}
