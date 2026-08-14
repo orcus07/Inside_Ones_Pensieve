@@ -99,7 +99,7 @@ main {
 }
 
 .intro-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.03em;
   margin: 0 0 0.75rem;
@@ -109,7 +109,7 @@ main {
 .intro-desc {
   margin: 0;
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6;
 }
 
@@ -748,7 +748,7 @@ main {
 .post-site-title {
   display: inline-block;
   color: var(--fg);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.15;
@@ -762,7 +762,7 @@ main {
 .post-site-description {
   margin: 0;
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6;
 }
 
@@ -772,14 +772,21 @@ main {
     padding-bottom: 1rem;
   }
 
+  .intro-name,
   .post-site-title {
-    font-size: 1.7rem;
+    font-size: 1.375rem;
     margin-bottom: 0.5rem;
+  }
+
+  .intro-desc,
+  .post-site-description {
+    font-size: 0.875rem;
   }
 }
 
 @media (max-width: 350px) {
+  .intro-name,
   .post-site-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
