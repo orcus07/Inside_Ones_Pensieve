@@ -1,6 +1,6 @@
 ---
 title: "어떤 날"
-date: 2026-08-06
+date: 2026-08-14
 summary: "행복한 집을 짓기 시작한 날"
 tags: [에세이]
 cover: "/images/eotteon_nal_cover.jpg"
