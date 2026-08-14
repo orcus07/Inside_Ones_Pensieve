@@ -733,3 +733,53 @@ main {
   margin-left: 1rem;
   font-size: 0.875rem;
 }
+
+/* ── 글 페이지 고정 사이트 헤더 ── */
+/* 메인 상단과 같은 제목·소개문·구분선을 글을 읽는 동안에도 상단에 유지한다. */
+.post-site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  padding: 1.75rem 0 1.25rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.post-site-title {
+  display: inline-block;
+  color: var(--fg);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin: 0 0 0.75rem;
+}
+
+.post-site-title:hover {
+  color: var(--fg);
+}
+
+.post-site-description {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 480px) {
+  .post-site-header {
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+  }
+
+  .post-site-title {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .post-site-title {
+    font-size: 1.5rem;
+  }
+}

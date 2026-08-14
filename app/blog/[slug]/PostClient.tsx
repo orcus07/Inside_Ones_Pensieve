@@ -6,6 +6,21 @@ import { Suspense, useState } from "react";
 
 import type { Post } from "@/lib/types";
 import { formatDate } from "@/lib/utils";
+import { site } from "@/site.config";
+
+function PostSiteHeader({ lang }: { lang: "ko" | "en" }) {
+  const homeHref = lang === "en" ? "/?lang=en" : "/";
+  const description = lang === "en"
+    ? "A place to take thoughts out and keep them."
+    : site.description;
+
+  return (
+    <div className="post-site-header">
+      <Link href={homeHref} className="post-site-title">{site.title}</Link>
+      <p className="post-site-description">{description}</p>
+    </div>
+  );
+}
 
 function SubscribeModal({ onClose, lang }: { onClose: () => void; lang: string }) {
   return (
@@ -39,6 +54,7 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
 
   return (
     <article className="shell">
+      <PostSiteHeader lang={lang} />
       <div className="post-back">
         <Link href={`/${langSuffix}`}>{backLabel}</Link>
         <button className="subscribe-btn-text" onClick={() => setShowSubscribe(true)}>
@@ -75,6 +91,7 @@ export default function PostClient({ koPost, enPost }: { koPost: Post; enPost: P
   return (
     <Suspense fallback={
       <article className="shell">
+        <PostSiteHeader lang="ko" />
         <div className="post-back" />
         <header className="post-header">
           <h1>{koPost.title}</h1>
