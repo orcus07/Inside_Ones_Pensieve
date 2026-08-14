@@ -3,6 +3,7 @@ title: Why a Pensieve?
 date: 2026-07-26
 summary: A vessel to take memories out of your head and store them. A blog ultimately does the same thing.
 tags: [Note]
+pinned: true
 ---
 
 Dumbledore used to pull silver-like threads from his temple and put them into a basin when his thoughts became too overwhelming. He said that things tangled in his mind would reveal patterns once they were laid out.

@@ -127,8 +127,10 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
                   <Link href={`/blog/${post.slug}/${lang === "en" ? "?lang=en" : ""}`} className="post-card">
                     <div className="post-card-body">
                       <div className="post-title">
-                        {post.draft && <span style={{ color: "var(--faint)" }}>[Draft] </span>}
-                        {post.title}
+                        <span>
+                          {post.draft && <span style={{ color: "var(--faint)" }}>[Draft] </span>}
+                          {post.title}
+                        </span>
                         {isNew && <span className="badge-new">new</span>}
                       </div>
                       {post.summary && <div className="post-preview">{post.summary}</div>}

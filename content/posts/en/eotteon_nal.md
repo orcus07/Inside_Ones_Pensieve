@@ -1,6 +1,6 @@
 ---
 title: "A Certain Day"
-date: 2026-08-14
+date: 2026-08-06
 summary: "The day I started building a happy home"
 tags: [Essay]
 cover: "/images/eotteon_nal_cover.jpg"
