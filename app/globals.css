@@ -881,7 +881,8 @@ a.section-label:hover {
 
 /* ── Pinned badge ── */
 .badge-pin {
-  font-size: 0.5rem;
-  color: var(--faint);
+  color: var(--muted);
   flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
 }

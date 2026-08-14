@@ -131,7 +131,7 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
                           {post.draft && <span style={{ color: "var(--faint)" }}>[Draft] </span>}
                           {post.title}
                         </span>
-                        {post.pinned && <span className="badge-pin">●</span>}
+                        {post.pinned && <span className="badge-pin"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M16 12V4h1V2H7v2h1v8l-2 2v2h5.2v6h1.6v-6H18v-2l-2-2z"/></svg></span>}
                         {isNew && !post.pinned && <span className="badge-new">new</span>}
                       </div>
                       {post.summary && <div className="post-preview">{post.summary}</div>}
