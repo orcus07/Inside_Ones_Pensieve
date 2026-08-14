@@ -279,8 +279,8 @@ main {
 /* ---------- 글 본문 ---------- */
 
 .post-back {
-  padding: 1.5rem 0 0;
-  margin-bottom: 0.25rem;
+  padding: 1.25rem 0 0;
+  margin-bottom: 1.25rem;
 }
 
 .post-back a {
