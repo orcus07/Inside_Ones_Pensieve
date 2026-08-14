@@ -879,7 +879,9 @@ a.section-label:hover {
   flex-shrink: 0;
 }
 
-/* ── Pinned card ── */
-.post-list li.pinned {
-  border-left: 3px solid var(--fg);
+/* ── Pinned badge ── */
+.badge-pin {
+  font-size: 0.5rem;
+  color: var(--faint);
+  flex-shrink: 0;
 }
