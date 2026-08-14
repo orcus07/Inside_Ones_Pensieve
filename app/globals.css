@@ -813,10 +813,40 @@ a.section-label:hover {
 /* ── Pagination ── */
 .pagination {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
   padding: 1.5rem 0 0.5rem;
+}
+
+.pagination-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.page-arrow {
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0.25rem 0;
+  transition: color 0.15s;
+}
+.page-arrow:hover:not(:disabled) {
+  color: var(--fg);
+}
+.page-arrow:disabled {
+  color: var(--line);
+  cursor: default;
+}
+
+.pagination-numbers {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .page-btn,
@@ -842,6 +872,13 @@ a.section-label:hover {
 
 .page-active {
   color: var(--fg);
-  font-weight: 600;
-  background: var(--code-bg);
+  font-weight: 700;
+  border-bottom: 2px solid var(--fg);
+  border-radius: 0;
+}
+
+.page-dots {
+  color: var(--faint);
+  font-size: 0.875rem;
+  user-select: none;
 }

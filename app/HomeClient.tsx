@@ -154,15 +154,51 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
 
         {totalPages > 1 && (
           <div className="pagination">
-            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+            <div className="pagination-nav">
               <button
-                key={p}
-                className={p === currentPage ? "page-active" : "page-btn"}
-                onClick={() => goToPage(p)}
+                className="page-arrow"
+                onClick={() => goToPage(currentPage - 1)}
+                disabled={currentPage === 1}
               >
-                {p}
+                ◀ {lang === "en" ? "Prev" : "이전"}
               </button>
-            ))}
+              <button
+                className="page-arrow"
+                onClick={() => goToPage(currentPage + 1)}
+                disabled={currentPage === totalPages}
+              >
+                {lang === "en" ? "Next" : "다음"} ▶
+              </button>
+            </div>
+            <div className="pagination-numbers">
+              {(() => {
+                const pages: (number | string)[] = [];
+                if (totalPages <= 7) {
+                  for (let i = 1; i <= totalPages; i++) pages.push(i);
+                } else {
+                  pages.push(1);
+                  if (currentPage > 3) pages.push("...");
+                  const start = Math.max(2, currentPage - 1);
+                  const end = Math.min(totalPages - 1, currentPage + 1);
+                  for (let i = start; i <= end; i++) pages.push(i);
+                  if (currentPage < totalPages - 2) pages.push("...");
+                  pages.push(totalPages);
+                }
+                return pages.map((p, idx) =>
+                  typeof p === "string" ? (
+                    <span key={`dots-${idx}`} className="page-dots">…</span>
+                  ) : (
+                    <button
+                      key={p}
+                      className={p === currentPage ? "page-active" : "page-btn"}
+                      onClick={() => goToPage(p)}
+                    >
+                      {p}
+                    </button>
+                  )
+                );
+              })()}
+            </div>
           </div>
         )}
       </section>
