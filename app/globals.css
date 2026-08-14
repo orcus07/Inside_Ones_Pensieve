@@ -746,7 +746,7 @@ main {
 }
 
 .post-site-title {
-  display: inline-block;
+  display: block;
   color: var(--fg);
   font-size: 1.5rem;
   font-weight: 700;
