@@ -71,13 +71,13 @@ a {
 }
 
 main {
-  padding-bottom: 2rem;
+  padding-bottom: 0.75rem;
   min-height: 60vh;
 }
 
 .site-footer {
   border-top: 1px solid var(--line);
-  padding: 0.5rem 0 1rem;
+  padding: 0.5rem 0 0.75rem;
   color: var(--faint);
   font-size: 0.8125rem;
 }
@@ -218,7 +218,7 @@ main {
 .post-list li {
   border: 1px solid var(--line);
   border-radius: 8px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   overflow: hidden;
   transition: box-shadow 0.15s;
 }
@@ -232,7 +232,7 @@ main {
   align-items: stretch;
   gap: 0;
   text-decoration: none;
-  padding: 1rem 1.25rem;
+  padding: 0.75rem 1rem;
 }
 
 .post-card:hover .post-title {
@@ -816,7 +816,7 @@ a.section-label:hover {
   align-items: center;
   justify-content: center;
   gap: 0.25rem;
-  padding: 1.5rem 0 0.5rem;
+  padding: 0.75rem 0 0.25rem;
   flex-wrap: wrap;
 }
 
