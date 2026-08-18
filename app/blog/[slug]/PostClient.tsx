@@ -108,6 +108,12 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
 
       <div className="prose post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
 
+      {lang === "en" && (
+        <p className="post-dateline">
+          © 2025 Sangrok Lee · English translation of the original Korean text.
+        </p>
+      )}
+
       {showSubscribe && (
         <SubscribeModal onClose={() => setShowSubscribe(false)} />
       )}
