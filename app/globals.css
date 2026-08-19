@@ -873,8 +873,8 @@ a.section-label:hover {
 /* ── NEW badge ── */
 .badge-new {
   font-size: 0.6875rem;
-  font-weight: 400;
-  color: var(--faint);
+  font-weight: 500;
+  color: #4caf50;
   letter-spacing: 0.02em;
   flex-shrink: 0;
 }
