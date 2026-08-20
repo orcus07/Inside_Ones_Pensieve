@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "https://inside-ones-pensieve.vercel.app/:path*",
+      "destination": "https://pensiev.me/:path*",
+      "permanent": true
+    }
+  ]
+}
