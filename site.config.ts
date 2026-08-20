@@ -6,7 +6,7 @@ export const site = {
   title: "Inside One's Pensieve",
   description: "생각을 꺼내 담아두는 곳.",
   /** 배포 주소. 끝에 슬래시를 붙이지 않는다. */
-  url: "https://inside-ones-pensieve.vercel.app",
+  url: "https://pensiev.me",
   author: "Sangrok Lee",
   locale: "ko_KR",
   lang: "ko",
