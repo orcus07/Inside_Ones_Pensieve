@@ -30,6 +30,8 @@ readingMinutes: 2
 
 내 생각의 길이는 줌 아웃보다 줌 인에 가까웠다.
 
+![남산 둘레길 이정표](/images/post_its_and_zoom_in_img1.jpg)
+
 ---
 
 **Disclaimer:** 앞으로 `How I Work`에는 내가 일하는 방식에 관한 기억을 구술로 남기고, AI가 기존 글의 결을 참고해 편집할 예정이다.

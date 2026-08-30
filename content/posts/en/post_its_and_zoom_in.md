@@ -30,6 +30,8 @@ I think each person has their own length of thought when it comes to working. So
 
 The length of thought for me is closer to zooming in than zooming out.
 
+![Namsan Trail sign](/images/post_its_and_zoom_in_img1.jpg)
+
 ---
 
 **Disclaimer:** From now on, in `How I Work` I will record memories of how I work by speaking them aloud, and AI will edit them with reference to the tone of the existing posts.
