@@ -886,3 +886,23 @@ a.section-label:hover {
   display: inline-flex;
   align-items: center;
 }
+
+/* 태그 페이지의 사이트명 링크도 메인 h1과 같은 블록 간격을 사용한다. */
+a.intro-name {
+  display: block;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+a.intro-name:hover {
+  color: var(--fg);
+}
+
+@media (max-width: 480px) {
+  .tag-section-label {
+    max-width: calc(100vw - 8.75rem);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

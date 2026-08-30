@@ -1,45 +1,35 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { formatDate, getAllPosts, getAllTags } from "@/lib/posts";
+import { getAllPosts, getAllTags } from "@/lib/posts";
+import TagClient from "./TagClient";
 
 type Props = { params: Promise<{ tag: string }> };
+
+const tagTranslations: Record<string, string> = {
+  에세이: "Essay",
+  테크: "Tech",
+  루틴: "Routine",
+  메모: "Note",
+  독서: "Reading",
+};
 
 export function generateStaticParams() {
   return getAllTags().map(({ tag }) => ({ tag }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { tag } = await params;
-  return { title: `#${decodeURIComponent(tag)}` };
+  const tag = decodeURIComponent((await params).tag);
+  return { title: `#${tag}` };
 }
 
 export default async function TagPage({ params }: Props) {
-  const tag = decodeURIComponent((await params).tag);
-  const posts = getAllPosts().filter((p) => p.tags.includes(tag));
-  if (posts.length === 0) notFound();
+  const koTag = decodeURIComponent((await params).tag);
+  const enTag = tagTranslations[koTag] ?? koTag;
+  const koPosts = getAllPosts("ko").filter((post) => post.tags.includes(koTag));
+  const enPosts = getAllPosts("en").filter((post) => post.tags.includes(enTag));
 
-  return (
-    <div className="shell">
-      <section className="intro">
-        <h1>#{tag}</h1>
-        <p>{posts.length}편.</p>
-      </section>
+  if (koPosts.length === 0) notFound();
 
-      <ul className="post-list">
-        {posts.map((post) => (
-          <li key={post.slug}>
-            <Link href={`/blog/${post.slug}/`}>
-              <div className="post-title">{post.title}</div>
-              {post.summary && <div className="post-summary">{post.summary}</div>}
-              <div className="post-dateline">
-                {formatDate(post.date)} · {post.readingMinutes}분
-              </div>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+  return <TagClient koPosts={koPosts} enPosts={enPosts} koTag={koTag} enTag={enTag} />;
 }
