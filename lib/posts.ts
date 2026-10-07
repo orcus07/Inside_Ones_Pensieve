@@ -179,12 +179,15 @@ export async function getPost(slug: string, lang: "ko" | "en" = "ko"): Promise<P
   return { ...meta, html };
 }
 
-/** 글 하단 이전/다음 링크용. 목록과 같은 최신순 정렬을 기준으로 한다. */
+/**
+ * 글 하단 이전/다음 링크용. 순수 날짜순으로 잇는다 — 고정 글은 목록에서만 맨 위에
+ * 올라가고, 여기서는 자기 날짜 자리에 둔다(안 그러면 최신 글의 "다음 글"이 고정 글이 된다).
+ */
 export function getAdjacent(slug: string, lang: "ko" | "en" = "ko"): {
   prev: PostMeta | null;
   next: PostMeta | null;
 } {
-  const posts = getAllPosts(lang);
+  const posts = [...getAllPosts(lang)].sort((a, b) => (a.date < b.date ? 1 : -1));
   const i = posts.findIndex((p) => p.slug === slug);
   if (i === -1) return { prev: null, next: null };
   return {

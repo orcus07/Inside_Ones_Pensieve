@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { formatDate, getAllPosts, getAllTags } from "@/lib/posts";
+import { pageAlternates } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "글",
   description: "쓴 글 전부.",
+  alternates: pageAlternates("/blog/"),
 };
 
 export default function BlogIndex() {

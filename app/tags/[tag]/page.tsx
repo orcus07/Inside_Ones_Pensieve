@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { getAllPosts, getAllTags } from "@/lib/posts";
+import { pageAlternates } from "@/lib/utils";
 import TagClient from "./TagClient";
 
 type Props = { params: Promise<{ tag: string }> };
@@ -20,7 +21,10 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tag = decodeURIComponent((await params).tag);
-  return { title: `#${tag}` };
+  return {
+    title: `#${tag}`,
+    alternates: pageAlternates(`/tags/${encodeURIComponent(tag)}/`),
+  };
 }
 
 export default async function TagPage({ params }: Props) {

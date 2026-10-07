@@ -4,9 +4,19 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useState } from "react";
 
-import type { Post } from "@/lib/types";
+import type { Post, PostMeta } from "@/lib/types";
 import { formatDate } from "@/lib/utils";
 import { site } from "@/site.config";
+
+type Language = "ko" | "en";
+type PostNav = { prev: PostMeta | null; next: PostMeta | null };
+
+type Props = {
+  koPost: Post;
+  enPost: Post | null;
+  koNav: PostNav;
+  enNav: PostNav;
+};
 
 function PostSiteHeader({ lang, setLang }: { lang: "ko" | "en"; setLang: (l: "ko" | "en") => void }) {
   const homeHref = lang === "en" ? "/?lang=en" : "/";
@@ -57,22 +67,36 @@ function SubscribeModal({ onClose }: { onClose: () => void }) {
   );
 }
 
-function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const lang = searchParams.get("lang") === "en" ? "en" : "ko";
-  const post = (lang === "en" && enPost) ? enPost : koPost;
-  const slug = koPost.slug;
+function PostNavLinks({ nav, lang }: { nav: PostNav; lang: Language }) {
+  const { prev, next } = nav;
+  if (!prev && !next) return null;
+  const query = lang === "en" ? "?lang=en" : "";
 
+  return (
+    <nav className="post-nav">
+      {prev && (
+        <Link href={`/blog/${prev.slug}/${query}`}>
+          <span className="dir">{lang === "en" ? "Previous" : "이전 글"}</span>
+          {prev.title}
+        </Link>
+      )}
+      {next && (
+        <Link href={`/blog/${next.slug}/${query}`} className="next">
+          <span className="dir">{lang === "en" ? "Next" : "다음 글"}</span>
+          {next.title}
+        </Link>
+      )}
+    </nav>
+  );
+}
+
+function PostView({ post, lang, setLang, nav }: {
+  post: Post;
+  lang: Language;
+  setLang: (l: Language) => void;
+  nav: PostNav;
+}) {
   const [showSubscribe, setShowSubscribe] = useState(false);
-
-  const setLang = (l: "ko" | "en") => {
-    if (l === "ko") {
-      router.push(`/blog/${slug}/`);
-    } else {
-      router.push(`/blog/${slug}/?lang=en`);
-    }
-  };
 
   return (
     <article className="shell">
@@ -114,6 +138,8 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
         </p>
       )}
 
+      <PostNavLinks nav={nav} lang={lang} />
+
       {showSubscribe && (
         <SubscribeModal onClose={() => setShowSubscribe(false)} />
       )}
@@ -121,18 +147,40 @@ function PostInner({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
   );
 }
 
-export default function PostClient({ koPost, enPost }: { koPost: Post; enPost: Post | null }) {
+function PostInner({ koPost, enPost, koNav, enNav }: Props) {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const lang = searchParams.get("lang") === "en" ? "en" : "ko";
+  const showEn = lang === "en" && enPost !== null;
+  const slug = koPost.slug;
+
+  const setLang = (l: "ko" | "en") => {
+    if (l === "ko") {
+      router.push(`/blog/${slug}/`);
+    } else {
+      router.push(`/blog/${slug}/?lang=en`);
+    }
+  };
+
+  return (
+    <PostView
+      post={showEn ? enPost : koPost}
+      lang={lang}
+      setLang={setLang}
+      nav={showEn ? enNav : koNav}
+    />
+  );
+}
+
+export default function PostClient(props: Props) {
+  // useSearchParams 를 쓰는 PostInner 는 정적 빌드에서 통째로 클라이언트 렌더링으로
+  // 빠지고, HTML에는 이 fallback 만 남는다. 검색엔진이 JS 없이도 본문과 링크를 읽도록
+  // fallback 에 한국어 본문 전체를 그린다.
   return (
     <Suspense fallback={
-      <article className="shell">
-        <PostSiteHeader lang="ko" setLang={() => {}} />
-        <div className="section-header" />
-        <header className="post-header">
-          <h1>{koPost.title}</h1>
-        </header>
-      </article>
+      <PostView post={props.koPost} lang="ko" setLang={() => {}} nav={props.koNav} />
     }>
-      <PostInner koPost={koPost} enPost={enPost} />
+      <PostInner {...props} />
     </Suspense>
   );
 }

@@ -77,29 +77,21 @@ function PinBadge() {
   );
 }
 
-function TagInner({ koPosts, enPosts, koTag, enTag }: Props) {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const lang: Language = searchParams.get("lang") === "en" ? "en" : "ko";
-  const allPosts = lang === "en" ? enPosts : koPosts;
-  const visibleTag = lang === "en" ? enTag : koTag;
+type TagViewProps = {
+  lang: Language;
+  allPosts: PostMeta[];
+  visibleTag: string;
+  requestedPage: number;
+  setLang: (lang: Language) => void;
+  goToPage: (page: number) => void;
+};
+
+function TagView({ lang, allPosts, visibleTag, requestedPage, setLang, goToPage }: TagViewProps) {
   const [showSubscribe, setShowSubscribe] = useState(false);
 
   const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
-  const requestedPage = Math.max(1, Number.parseInt(searchParams.get("page") || "1", 10) || 1);
   const currentPage = Math.min(requestedPage, totalPages);
   const posts = allPosts.slice((currentPage - 1) * POSTS_PER_PAGE, currentPage * POSTS_PER_PAGE);
-
-  const hrefFor = (nextLang: Language, page = 1) => {
-    const params = new URLSearchParams();
-    if (nextLang === "en") params.set("lang", "en");
-    if (page > 1) params.set("page", String(page));
-    const query = params.toString();
-    return `/tags/${encodeURIComponent(koTag)}/${query ? `?${query}` : ""}`;
-  };
-
-  const goToPage = (page: number) => router.push(hrefFor(lang, page));
-  const setLang = (nextLang: Language) => router.push(hrefFor(nextLang));
 
   const pageNumbers = (() => {
     const half = 2;
@@ -176,9 +168,46 @@ function TagInner({ koPosts, enPosts, koTag, enTag }: Props) {
   );
 }
 
-export default function TagClient(props: Props) {
+function TagInner({ koPosts, enPosts, koTag, enTag }: Props) {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const lang: Language = searchParams.get("lang") === "en" ? "en" : "ko";
+  const requestedPage = Math.max(1, Number.parseInt(searchParams.get("page") || "1", 10) || 1);
+
+  const hrefFor = (nextLang: Language, page = 1) => {
+    const params = new URLSearchParams();
+    if (nextLang === "en") params.set("lang", "en");
+    if (page > 1) params.set("page", String(page));
+    const query = params.toString();
+    return `/tags/${encodeURIComponent(koTag)}/${query ? `?${query}` : ""}`;
+  };
+
   return (
-    <Suspense fallback={<div className="shell" />}>
+    <TagView
+      lang={lang}
+      allPosts={lang === "en" ? enPosts : koPosts}
+      visibleTag={lang === "en" ? enTag : koTag}
+      requestedPage={requestedPage}
+      setLang={(nextLang) => router.push(hrefFor(nextLang))}
+      goToPage={(page) => router.push(hrefFor(lang, page))}
+    />
+  );
+}
+
+export default function TagClient(props: Props) {
+  // TagInner 는 useSearchParams 때문에 정적 HTML에서 빠진다. 검색엔진이 볼 수 있도록
+  // fallback 에 한국어 첫 페이지를 그린다.
+  return (
+    <Suspense fallback={
+      <TagView
+        lang="ko"
+        allPosts={props.koPosts}
+        visibleTag={props.koTag}
+        requestedPage={1}
+        setLang={() => {}}
+        goToPage={() => {}}
+      />
+    }>
       <TagInner {...props} />
     </Suspense>
   );

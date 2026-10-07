@@ -64,6 +64,8 @@ export default function RootLayout({
               © 2025 Sangrok Lee
             </span>
             <div className="footer-links">
+              {/* 모든 페이지 HTML에서 전체 글 목록으로 가는 링크. 검색엔진이 글을 찾는 주 경로다. */}
+              <Link href="/blog/">Archive</Link>
               <a href="/feed.xml">RSS</a>
               {site.links.map((l) => (
                 <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer" aria-label={l.label} className="footer-icon">

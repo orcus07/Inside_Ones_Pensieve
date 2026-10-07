@@ -53,33 +53,19 @@ function SubscribeModal({ onClose }: { onClose: () => void }) {
 
 const POSTS_PER_PAGE = 4;
 
-function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMeta[] }) {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const lang = searchParams.get("lang") === "en" ? "en" : "ko";
-  const allPosts = lang === "en" ? enPosts : koPosts;
+type HomeViewProps = {
+  lang: "ko" | "en";
+  allPosts: PostMeta[];
+  currentPage: number;
+  setLang: (l: "ko" | "en") => void;
+  goToPage: (p: number) => void;
+};
+
+function HomeView({ lang, allPosts, currentPage, setLang, goToPage }: HomeViewProps) {
   const [showSubscribe, setShowSubscribe] = useState(false);
 
-  const pageParam = searchParams.get("page");
-  const currentPage = Math.max(1, parseInt(pageParam || "1", 10) || 1);
   const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
   const posts = allPosts.slice((currentPage - 1) * POSTS_PER_PAGE, currentPage * POSTS_PER_PAGE);
-
-  const goToPage = (p: number) => {
-    const params = new URLSearchParams();
-    if (lang === "en") params.set("lang", "en");
-    if (p > 1) params.set("page", String(p));
-    const qs = params.toString();
-    router.push(qs ? `/?${qs}` : "/");
-  };
-
-  const setLang = (l: "ko" | "en") => {
-    if (l === "ko") {
-      router.push("/");
-    } else {
-      router.push("/?lang=en");
-    }
-  };
 
   return (
     <div className="shell">
@@ -189,9 +175,54 @@ function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMet
   );
 }
 
-export default function HomeClient({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMeta[] }) {
+function HomeInner({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMeta[] }) {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const lang = searchParams.get("lang") === "en" ? "en" : "ko";
+
+  const pageParam = searchParams.get("page");
+  const currentPage = Math.max(1, parseInt(pageParam || "1", 10) || 1);
+
+  const goToPage = (p: number) => {
+    const params = new URLSearchParams();
+    if (lang === "en") params.set("lang", "en");
+    if (p > 1) params.set("page", String(p));
+    const qs = params.toString();
+    router.push(qs ? `/?${qs}` : "/");
+  };
+
+  const setLang = (l: "ko" | "en") => {
+    if (l === "ko") {
+      router.push("/");
+    } else {
+      router.push("/?lang=en");
+    }
+  };
+
   return (
-    <Suspense fallback={<div className="shell" />}>
+    <HomeView
+      lang={lang}
+      allPosts={lang === "en" ? enPosts : koPosts}
+      currentPage={currentPage}
+      setLang={setLang}
+      goToPage={goToPage}
+    />
+  );
+}
+
+export default function HomeClient({ koPosts, enPosts }: { koPosts: PostMeta[]; enPosts: PostMeta[] }) {
+  // HomeInner 는 useSearchParams 때문에 정적 HTML에서 빠진다. fallback 이 HTML에 남는
+  // 내용이므로 한국어 첫 페이지를 그대로 그려 검색엔진이 글 링크를 따라갈 수 있게 한다.
+  return (
+    <Suspense fallback={
+      <HomeView
+        lang="ko"
+        allPosts={koPosts}
+        currentPage={1}
+        setLang={() => {}}
+        goToPage={() => {}}
+      />
+    }>
       <HomeInner koPosts={koPosts} enPosts={enPosts} />
     </Suspense>
   );

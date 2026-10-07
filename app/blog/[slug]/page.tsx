@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import type { Post } from "@/lib/types";
-import { getAllPosts, getPost } from "@/lib/posts";
+import { getAdjacent, getAllPosts, getPost } from "@/lib/posts";
+import { pageAlternates } from "@/lib/utils";
 import { site } from "@/site.config";
 import PostClient from "./PostClient";
 
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.summary || site.description,
+    alternates: pageAlternates(`/blog/${post.slug}/`),
     openGraph: {
       type: "article",
       title: post.title,
@@ -40,5 +42,12 @@ export default async function PostPage({ params }: Props) {
 
   if (!koPost) notFound();
 
-  return <PostClient koPost={koPost} enPost={enPost} />;
+  return (
+    <PostClient
+      koPost={koPost}
+      enPost={enPost}
+      koNav={getAdjacent(slug, "ko")}
+      enNav={getAdjacent(slug, "en")}
+    />
+  );
 }
